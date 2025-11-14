@@ -1,0 +1,66 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #0b0f14;
+  --card: #0f141b;
+  --muted: #8892a6;
+}
+html, body{
+  height: 100%;
+}
+body{
+  @apply bg-slate-50 text-slate-900;
+}
+.container-narrow{
+  @apply max-w-6xl mx-auto px-4;
+}
+.card{
+  @apply bg-white rounded-2xl shadow-sm border border-slate-200;
+}
+.card-dark{
+  @apply bg-[var(--card)] text-white rounded-2xl border border-slate-800;
+}
+.h1{
+  @apply text-3xl font-bold tracking-tight;
+}
+.h2{
+  @apply text-2xl font-semibold;
+}
+.badge{
+  @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium border;
+}
+.link{
+  @apply text-brand-700 hover:text-brand-600 underline underline-offset-4 decoration-2;
+}
+table.leaderboard{
+  @apply w-full text-sm;
+}
+table.leaderboard th, table.leaderboard td{
+  @apply p-3 text-left border-b border-slate-200;
+}
+table.leaderboard th{
+  @apply text-slate-500 uppercase text-xs tracking-wider;
+}
+
+.heatmap-table{
+  @apply border-collapse text-xs min-w-full;
+}
+.heatmap-table th,
+.heatmap-table td{
+  @apply border border-slate-200 text-center px-2 py-1;
+}
+.heatmap-table th{
+  @apply bg-slate-100 text-slate-600 font-medium;
+}
+.heatmap-table td{
+  @apply font-medium text-slate-700;
+}
+
+
+.heatmap-gradient{
+  background: linear-gradient(90deg, #a32020 0%, #fef2c0 50%, #0f766e 100%);
+  height: 100%;
+}
+

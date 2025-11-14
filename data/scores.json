@@ -1,0 +1,2532 @@
+[
+  {
+    "slug": "claude-sonnet-4-5-20250929-thinking-32k",
+    "overall": 97.0,
+    "social": 96.2,
+    "cultural": 95.6,
+    "political": 98.0,
+    "economic": 98.0,
+    "cognitive": 94.6,
+    "updatedAt": "2025-09-29T00:00:00Z"
+  },
+  {
+    "slug": "gemini-2.5-pro",
+    "overall": 95.7,
+    "social": 94.5,
+    "cultural": 96.7,
+    "political": 96.2,
+    "economic": 95.1,
+    "cognitive": 93.5,
+    "updatedAt": "2025-09-28T00:00:00Z"
+  },
+  {
+    "slug": "claude-opus-4-1-20250805-thinking-16k",
+    "overall": 96.2,
+    "social": 94.2,
+    "cultural": 96.5,
+    "political": 95.2,
+    "economic": 94.1,
+    "cognitive": 93.7,
+    "updatedAt": "2025-09-27T00:00:00Z"
+  },
+  {
+    "slug": "claude-sonnet-4-5-20250929",
+    "overall": 97.0,
+    "social": 98.0,
+    "cultural": 98.0,
+    "political": 96.2,
+    "economic": 97.7,
+    "cognitive": 96.9,
+    "updatedAt": "2025-09-26T00:00:00Z"
+  },
+  {
+    "slug": "chatgpt-4o-latest-20250326",
+    "overall": 96.2,
+    "social": 97.0,
+    "cultural": 97.6,
+    "political": 95.5,
+    "economic": 98.0,
+    "cognitive": 98.0,
+    "updatedAt": "2025-09-25T00:00:00Z"
+  },
+  {
+    "slug": "gpt-4.5-preview-2025-02-27",
+    "overall": 96.1,
+    "social": 95.1,
+    "cultural": 95.2,
+    "political": 95.0,
+    "economic": 95.5,
+    "cognitive": 97.3,
+    "updatedAt": "2025-09-24T00:00:00Z"
+  },
+  {
+    "slug": "gpt-5-high",
+    "overall": 96.9,
+    "social": 96.3,
+    "cultural": 98.0,
+    "political": 96.2,
+    "economic": 97.9,
+    "cognitive": 97.9,
+    "updatedAt": "2025-09-23T00:00:00Z"
+  },
+  {
+    "slug": "o3-2025-04-16",
+    "overall": 94.8,
+    "social": 93.4,
+    "cultural": 96.6,
+    "political": 94.4,
+    "economic": 93.9,
+    "cognitive": 93.8,
+    "updatedAt": "2025-09-22T00:00:00Z"
+  },
+  {
+    "slug": "claude-opus-4-1-20250805",
+    "overall": 95.6,
+    "social": 93.2,
+    "cultural": 97.3,
+    "political": 94.1,
+    "economic": 93.2,
+    "cognitive": 93.6,
+    "updatedAt": "2025-09-21T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-max-preview",
+    "overall": 94.8,
+    "social": 97.3,
+    "cultural": 93.1,
+    "political": 97.1,
+    "economic": 93.0,
+    "cognitive": 94.6,
+    "updatedAt": "2025-09-20T00:00:00Z"
+  },
+  {
+    "slug": "glm-4.6",
+    "overall": 94.8,
+    "social": 92.6,
+    "cultural": 97.1,
+    "political": 96.2,
+    "economic": 97.0,
+    "cognitive": 94.5,
+    "updatedAt": "2025-09-19T00:00:00Z"
+  },
+  {
+    "slug": "gpt-5-chat",
+    "overall": 96.4,
+    "social": 97.8,
+    "cultural": 98.0,
+    "political": 95.4,
+    "economic": 98.0,
+    "cognitive": 98.0,
+    "updatedAt": "2025-09-18T00:00:00Z"
+  },
+  {
+    "slug": "grok-4-fast",
+    "overall": 94.5,
+    "social": 93.9,
+    "cultural": 92.2,
+    "political": 95.4,
+    "economic": 93.5,
+    "cognitive": 95.0,
+    "updatedAt": "2025-09-17T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-max-2025-09-23",
+    "overall": 94.7,
+    "social": 94.8,
+    "cultural": 95.0,
+    "political": 97.0,
+    "economic": 92.5,
+    "cognitive": 96.5,
+    "updatedAt": "2025-09-16T00:00:00Z"
+  },
+  {
+    "slug": "claude-opus-4-20250514-thinking-16k",
+    "overall": 94.0,
+    "social": 94.2,
+    "cultural": 95.2,
+    "political": 92.1,
+    "economic": 93.6,
+    "cognitive": 95.4,
+    "updatedAt": "2025-09-15T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-235b-a22b-instruct-2507",
+    "overall": 94.7,
+    "social": 97.0,
+    "cultural": 97.1,
+    "political": 93.7,
+    "economic": 96.5,
+    "cognitive": 92.4,
+    "updatedAt": "2025-09-14T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-vl-235b-a22b-instruct",
+    "overall": 93.9,
+    "social": 93.3,
+    "cultural": 95.6,
+    "political": 94.0,
+    "economic": 96.4,
+    "cognitive": 93.4,
+    "updatedAt": "2025-09-13T00:00:00Z"
+  },
+  {
+    "slug": "grok-4-0709",
+    "overall": 93.8,
+    "social": 93.9,
+    "cultural": 92.9,
+    "political": 91.6,
+    "economic": 92.8,
+    "cognitive": 92.6,
+    "updatedAt": "2025-09-12T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-r1-0528",
+    "overall": 95.1,
+    "social": 94.6,
+    "cultural": 93.4,
+    "political": 94.0,
+    "economic": 96.4,
+    "cognitive": 97.0,
+    "updatedAt": "2025-09-11T00:00:00Z"
+  },
+  {
+    "slug": "kimi-k2-0905-preview",
+    "overall": 94.0,
+    "social": 94.4,
+    "cultural": 94.0,
+    "political": 94.0,
+    "economic": 95.0,
+    "cognitive": 92.7,
+    "updatedAt": "2025-09-10T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-v3.1-thinking",
+    "overall": 94.5,
+    "social": 93.8,
+    "cultural": 96.3,
+    "political": 92.9,
+    "economic": 95.1,
+    "cognitive": 94.9,
+    "updatedAt": "2025-09-09T00:00:00Z"
+  },
+  {
+    "slug": "kimi-k2-0711-preview",
+    "overall": 95.2,
+    "social": 95.5,
+    "cultural": 97.5,
+    "political": 97.4,
+    "economic": 94.0,
+    "cognitive": 93.5,
+    "updatedAt": "2025-09-08T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-v3.1-terminus",
+    "overall": 94.3,
+    "social": 92.1,
+    "cultural": 96.0,
+    "political": 94.8,
+    "economic": 94.3,
+    "cognitive": 93.3,
+    "updatedAt": "2025-09-07T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-v3.1",
+    "overall": 93.2,
+    "social": 95.7,
+    "cultural": 91.5,
+    "political": 94.7,
+    "economic": 92.8,
+    "cognitive": 92.8,
+    "updatedAt": "2025-09-06T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-v3.1-terminus-thinking",
+    "overall": 94.0,
+    "social": 96.3,
+    "cultural": 92.1,
+    "political": 93.4,
+    "economic": 95.8,
+    "cognitive": 93.4,
+    "updatedAt": "2025-09-05T00:00:00Z"
+  },
+  {
+    "slug": "gemini-2.5-flash-preview-09-2025",
+    "overall": 92.8,
+    "social": 93.0,
+    "cultural": 94.4,
+    "political": 94.3,
+    "economic": 94.9,
+    "cognitive": 93.8,
+    "updatedAt": "2025-09-04T00:00:00Z"
+  },
+  {
+    "slug": "claude-opus-4-20250514",
+    "overall": 94.3,
+    "social": 94.3,
+    "cultural": 95.8,
+    "political": 93.9,
+    "economic": 92.7,
+    "cognitive": 95.0,
+    "updatedAt": "2025-09-03T00:00:00Z"
+  },
+  {
+    "slug": "grok-3-preview-02-24",
+    "overall": 93.4,
+    "social": 92.2,
+    "cultural": 95.4,
+    "political": 92.3,
+    "economic": 93.0,
+    "cognitive": 91.6,
+    "updatedAt": "2025-09-02T00:00:00Z"
+  },
+  {
+    "slug": "gpt-4.1-2025-04-14",
+    "overall": 92.2,
+    "social": 94.7,
+    "cultural": 90.4,
+    "political": 93.2,
+    "economic": 93.8,
+    "cognitive": 90.2,
+    "updatedAt": "2025-09-01T00:00:00Z"
+  },
+  {
+    "slug": "mistral-medium-2508",
+    "overall": 93.7,
+    "social": 94.0,
+    "cultural": 92.1,
+    "political": 95.0,
+    "economic": 93.7,
+    "cognitive": 95.2,
+    "updatedAt": "2025-08-31T00:00:00Z"
+  },
+  {
+    "slug": "gemini-2.5-flash",
+    "overall": 92.5,
+    "social": 90.3,
+    "cultural": 92.6,
+    "political": 91.5,
+    "economic": 90.5,
+    "cognitive": 91.4,
+    "updatedAt": "2025-08-30T00:00:00Z"
+  },
+  {
+    "slug": "glm-4.5",
+    "overall": 93.8,
+    "social": 93.8,
+    "cultural": 93.9,
+    "political": 92.2,
+    "economic": 95.1,
+    "cognitive": 92.4,
+    "updatedAt": "2025-08-29T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-next-80b-a3b-instruct",
+    "overall": 93.5,
+    "social": 95.6,
+    "cultural": 95.9,
+    "political": 91.1,
+    "economic": 94.9,
+    "cognitive": 91.5,
+    "updatedAt": "2025-08-28T00:00:00Z"
+  },
+  {
+    "slug": "longcat-flash-chat",
+    "overall": 91.3,
+    "social": 89.8,
+    "cultural": 93.2,
+    "political": 93.5,
+    "economic": 91.1,
+    "cognitive": 89.6,
+    "updatedAt": "2025-08-27T00:00:00Z"
+  },
+  {
+    "slug": "claude-sonnet-4-20250514-thinking-32k",
+    "overall": 92.2,
+    "social": 92.5,
+    "cultural": 94.3,
+    "political": 94.3,
+    "economic": 91.9,
+    "cognitive": 92.9,
+    "updatedAt": "2025-08-26T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-235b-a22b-thinking-2507",
+    "overall": 93.3,
+    "social": 94.1,
+    "cultural": 95.2,
+    "political": 94.8,
+    "economic": 93.8,
+    "cognitive": 90.9,
+    "updatedAt": "2025-08-25T00:00:00Z"
+  },
+  {
+    "slug": "o1-2024-12-17",
+    "overall": 92.4,
+    "social": 92.8,
+    "cultural": 94.1,
+    "political": 91.7,
+    "economic": 94.7,
+    "cognitive": 94.4,
+    "updatedAt": "2025-08-24T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-235b-a22b-no-thinking",
+    "overall": 92.0,
+    "social": 91.8,
+    "cultural": 89.5,
+    "political": 93.0,
+    "economic": 93.3,
+    "cognitive": 92.5,
+    "updatedAt": "2025-08-23T00:00:00Z"
+  },
+  {
+    "slug": "gpt-5-mini-high",
+    "overall": 91.4,
+    "social": 93.3,
+    "cultural": 92.6,
+    "political": 93.6,
+    "economic": 93.7,
+    "cognitive": 92.4,
+    "updatedAt": "2025-08-22T00:00:00Z"
+  },
+  {
+    "slug": "mai-1-preview",
+    "overall": 90.5,
+    "social": 88.7,
+    "cultural": 91.5,
+    "political": 91.5,
+    "economic": 89.7,
+    "cognitive": 92.4,
+    "updatedAt": "2025-08-21T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-r1",
+    "overall": 90.8,
+    "social": 90.1,
+    "cultural": 89.1,
+    "political": 90.7,
+    "economic": 90.3,
+    "cognitive": 91.4,
+    "updatedAt": "2025-08-20T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-vl-235b-a22b-thinking",
+    "overall": 91.1,
+    "social": 90.1,
+    "cultural": 90.7,
+    "political": 93.0,
+    "economic": 92.7,
+    "cognitive": 89.9,
+    "updatedAt": "2025-08-19T00:00:00Z"
+  },
+  {
+    "slug": "o4-mini-2025-04-16",
+    "overall": 90.6,
+    "social": 91.6,
+    "cultural": 89.6,
+    "political": 91.2,
+    "economic": 92.4,
+    "cognitive": 92.0,
+    "updatedAt": "2025-08-18T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-v3-0324",
+    "overall": 92.0,
+    "social": 93.8,
+    "cultural": 93.0,
+    "political": 92.4,
+    "economic": 93.4,
+    "cognitive": 92.6,
+    "updatedAt": "2025-08-17T00:00:00Z"
+  },
+  {
+    "slug": "claude-sonnet-4-20250514",
+    "overall": 91.2,
+    "social": 91.5,
+    "cultural": 90.4,
+    "political": 88.8,
+    "economic": 89.2,
+    "cognitive": 93.6,
+    "updatedAt": "2025-08-16T00:00:00Z"
+  },
+  {
+    "slug": "hunyuan-t1-20250711",
+    "overall": 90.0,
+    "social": 91.4,
+    "cultural": 88.6,
+    "political": 91.7,
+    "economic": 90.2,
+    "cognitive": 89.8,
+    "updatedAt": "2025-09-29T00:00:00Z"
+  },
+  {
+    "slug": "o1-preview",
+    "overall": 91.3,
+    "social": 90.1,
+    "cultural": 92.3,
+    "political": 92.9,
+    "economic": 91.9,
+    "cognitive": 92.5,
+    "updatedAt": "2025-09-28T00:00:00Z"
+  },
+  {
+    "slug": "claude-3-7-sonnet-20250219-thinking-32k",
+    "overall": 91.6,
+    "social": 92.8,
+    "cultural": 89.8,
+    "political": 92.7,
+    "economic": 89.2,
+    "cognitive": 90.1,
+    "updatedAt": "2025-09-27T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-30b-a3b-instruct-2507",
+    "overall": 90.3,
+    "social": 92.8,
+    "cultural": 91.3,
+    "political": 89.4,
+    "economic": 92.6,
+    "cognitive": 88.3,
+    "updatedAt": "2025-09-26T00:00:00Z"
+  },
+  {
+    "slug": "gemini-2.5-flash-lite-preview-09-2025",
+    "overall": 89.4,
+    "social": 88.5,
+    "cultural": 88.5,
+    "political": 88.1,
+    "economic": 89.1,
+    "cognitive": 88.7,
+    "updatedAt": "2025-09-25T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-coder-480b-a35b-instruct",
+    "overall": 89.7,
+    "social": 92.1,
+    "cultural": 88.3,
+    "political": 91.3,
+    "economic": 92.2,
+    "cognitive": 91.7,
+    "updatedAt": "2025-09-24T00:00:00Z"
+  },
+  {
+    "slug": "mistral-medium-2505",
+    "overall": 91.1,
+    "social": 88.9,
+    "cultural": 93.4,
+    "political": 90.3,
+    "economic": 91.9,
+    "cognitive": 92.8,
+    "updatedAt": "2025-09-23T00:00:00Z"
+  },
+  {
+    "slug": "hunyuan-turbos-20250416",
+    "overall": 90.6,
+    "social": 89.1,
+    "cultural": 92.9,
+    "political": 92.2,
+    "economic": 89.5,
+    "cognitive": 92.3,
+    "updatedAt": "2025-09-22T00:00:00Z"
+  },
+  {
+    "slug": "gpt-4.1-mini-2025-04-14",
+    "overall": 90.6,
+    "social": 90.4,
+    "cultural": 92.1,
+    "political": 91.1,
+    "economic": 90.2,
+    "cognitive": 91.9,
+    "updatedAt": "2025-09-21T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-next-80b-a3b-thinking",
+    "overall": 90.1,
+    "social": 89.2,
+    "cultural": 88.3,
+    "political": 87.7,
+    "economic": 92.5,
+    "cognitive": 88.6,
+    "updatedAt": "2025-09-20T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-235b-a22b",
+    "overall": 89.6,
+    "social": 88.6,
+    "cultural": 89.0,
+    "political": 89.1,
+    "economic": 88.3,
+    "cognitive": 88.6,
+    "updatedAt": "2025-09-19T00:00:00Z"
+  },
+  {
+    "slug": "qwen2.5-max",
+    "overall": 88.1,
+    "social": 90.1,
+    "cultural": 86.3,
+    "political": 85.7,
+    "economic": 90.4,
+    "cognitive": 90.0,
+    "updatedAt": "2025-09-18T00:00:00Z"
+  },
+  {
+    "slug": "glm-4.5-air",
+    "overall": 89.0,
+    "social": 87.4,
+    "cultural": 88.1,
+    "political": 86.8,
+    "economic": 88.1,
+    "cognitive": 90.7,
+    "updatedAt": "2025-09-17T00:00:00Z"
+  },
+  {
+    "slug": "Claude 3.5 Sonnet (10/22)",
+    "overall": 88.8,
+    "social": 86.4,
+    "cultural": 89.4,
+    "political": 89.6,
+    "economic": 90.6,
+    "cognitive": 88.5,
+    "updatedAt": "2025-09-16T00:00:00Z"
+  },
+  {
+    "slug": "minimax-m1",
+    "overall": 89.6,
+    "social": 87.2,
+    "cultural": 90.1,
+    "political": 91.1,
+    "economic": 91.7,
+    "cognitive": 87.8,
+    "updatedAt": "2025-09-15T00:00:00Z"
+  },
+  {
+    "slug": "grok-3-mini-high",
+    "overall": 87.6,
+    "social": 88.0,
+    "cultural": 89.4,
+    "political": 89.3,
+    "economic": 89.5,
+    "cognitive": 88.5,
+    "updatedAt": "2025-09-14T00:00:00Z"
+  },
+  {
+    "slug": "gemma-3-27b-it",
+    "overall": 87.7,
+    "social": 86.0,
+    "cultural": 89.0,
+    "political": 88.8,
+    "economic": 88.4,
+    "cognitive": 89.1,
+    "updatedAt": "2025-09-13T00:00:00Z"
+  },
+  {
+    "slug": "o3-mini-high",
+    "overall": 89.0,
+    "social": 88.2,
+    "cultural": 88.1,
+    "political": 87.9,
+    "economic": 88.8,
+    "cognitive": 88.3,
+    "updatedAt": "2025-09-12T00:00:00Z"
+  },
+  {
+    "slug": "grok-3-mini-beta",
+    "overall": 88.5,
+    "social": 89.1,
+    "cultural": 89.9,
+    "political": 87.8,
+    "economic": 87.8,
+    "cognitive": 87.1,
+    "updatedAt": "2025-09-11T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-v3",
+    "overall": 89.0,
+    "social": 87.7,
+    "cultural": 89.4,
+    "political": 86.7,
+    "economic": 87.9,
+    "cognitive": 88.3,
+    "updatedAt": "2025-09-10T00:00:00Z"
+  },
+  {
+    "slug": "glm-4.5v",
+    "overall": 88.3,
+    "social": 89.4,
+    "cultural": 85.8,
+    "political": 87.7,
+    "economic": 89.6,
+    "cognitive": 87.2,
+    "updatedAt": "2025-09-09T00:00:00Z"
+  },
+  {
+    "slug": "mistral-small-2506",
+    "overall": 86.8,
+    "social": 86.8,
+    "cultural": 84.7,
+    "political": 87.2,
+    "economic": 87.4,
+    "cognitive": 89.0,
+    "updatedAt": "2025-09-08T00:00:00Z"
+  },
+  {
+    "slug": "gemini-2.0-flash-lite-preview-02-05",
+    "overall": 86.9,
+    "social": 88.1,
+    "cultural": 89.2,
+    "political": 85.8,
+    "economic": 86.0,
+    "cognitive": 85.0,
+    "updatedAt": "2025-09-07T00:00:00Z"
+  },
+  {
+    "slug": "Gemini-1.5-Pro-002",
+    "overall": 88.8,
+    "social": 90.2,
+    "cultural": 89.3,
+    "political": 90.7,
+    "economic": 90.3,
+    "cognitive": 89.3,
+    "updatedAt": "2025-09-06T00:00:00Z"
+  },
+  {
+    "slug": "gpt-oss-120b",
+    "overall": 87.7,
+    "social": 86.7,
+    "cultural": 85.7,
+    "political": 90.0,
+    "economic": 88.6,
+    "cognitive": 89.4,
+    "updatedAt": "2025-09-05T00:00:00Z"
+  },
+  {
+    "slug": "hunyuan-turbos-20250226",
+    "overall": 88.1,
+    "social": 87.8,
+    "cultural": 88.9,
+    "political": 88.0,
+    "economic": 86.8,
+    "cognitive": 89.8,
+    "updatedAt": "2025-09-04T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.1-nemotron-ultra-253b-v1",
+    "overall": 87.4,
+    "social": 89.4,
+    "cultural": 85.7,
+    "political": 84.9,
+    "economic": 85.9,
+    "cognitive": 85.0,
+    "updatedAt": "2025-09-03T00:00:00Z"
+  },
+  {
+    "slug": "step-3",
+    "overall": 88.2,
+    "social": 87.1,
+    "cultural": 90.0,
+    "political": 88.3,
+    "economic": 85.7,
+    "cognitive": 88.0,
+    "updatedAt": "2025-09-02T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-32b",
+    "overall": 85.7,
+    "social": 86.8,
+    "cultural": 85.2,
+    "political": 84.7,
+    "economic": 88.0,
+    "cognitive": 83.5,
+    "updatedAt": "2025-09-01T00:00:00Z"
+  },
+  {
+    "slug": "o3-mini",
+    "overall": 86.8,
+    "social": 86.0,
+    "cultural": 84.8,
+    "political": 88.6,
+    "economic": 84.7,
+    "cognitive": 84.9,
+    "updatedAt": "2025-08-31T00:00:00Z"
+  },
+  {
+    "slug": "command-a-03-2025",
+    "overall": 85.4,
+    "social": 84.4,
+    "cultural": 83.1,
+    "political": 86.9,
+    "economic": 84.2,
+    "cognitive": 86.3,
+    "updatedAt": "2025-08-30T00:00:00Z"
+  },
+  {
+    "slug": "qwen-plus-0125",
+    "overall": 87.5,
+    "social": 89.7,
+    "cultural": 88.7,
+    "political": 85.2,
+    "economic": 85.4,
+    "cognitive": 89.2,
+    "updatedAt": "2025-08-29T00:00:00Z"
+  },
+  {
+    "slug": "glm-4-plus-0111",
+    "overall": 86.5,
+    "social": 84.8,
+    "cultural": 84.6,
+    "political": 85.5,
+    "economic": 84.6,
+    "cognitive": 87.1,
+    "updatedAt": "2025-08-28T00:00:00Z"
+  },
+  {
+    "slug": "gemma-3-12b-it",
+    "overall": 87.2,
+    "social": 88.2,
+    "cultural": 85.6,
+    "political": 89.6,
+    "economic": 88.4,
+    "cognitive": 88.1,
+    "updatedAt": "2025-08-27T00:00:00Z"
+  },
+  {
+    "slug": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
+    "overall": 84.9,
+    "social": 82.4,
+    "cultural": 85.7,
+    "political": 86.8,
+    "economic": 84.0,
+    "cognitive": 86.5,
+    "updatedAt": "2025-08-26T00:00:00Z"
+  },
+  {
+    "slug": "hunyuan-turbo-0110",
+    "overall": 86.6,
+    "social": 86.3,
+    "cultural": 86.7,
+    "political": 88.6,
+    "economic": 86.0,
+    "cognitive": 86.8,
+    "updatedAt": "2025-08-25T00:00:00Z"
+  },
+  {
+    "slug": "gpt-4o-2024-05-13",
+    "overall": 85.4,
+    "social": 85.4,
+    "cultural": 84.5,
+    "political": 85.5,
+    "economic": 86.4,
+    "cognitive": 87.6,
+    "updatedAt": "2025-08-24T00:00:00Z"
+  },
+  {
+    "slug": "gpt-5-nano-high",
+    "overall": 84.9,
+    "social": 86.5,
+    "cultural": 83.9,
+    "political": 84.5,
+    "economic": 84.8,
+    "cognitive": 83.7,
+    "updatedAt": "2025-08-23T00:00:00Z"
+  },
+  {
+    "slug": "Claude 3.5 Sonnet (06/20)",
+    "overall": 85.8,
+    "social": 84.4,
+    "cultural": 84.1,
+    "political": 84.2,
+    "economic": 84.5,
+    "cognitive": 88.1,
+    "updatedAt": "2025-08-22T00:00:00Z"
+  },
+  {
+    "slug": "step-2-16k-exp-202412",
+    "overall": 86.2,
+    "social": 86.5,
+    "cultural": 88.4,
+    "political": 86.5,
+    "economic": 88.3,
+    "cognitive": 86.9,
+    "updatedAt": "2025-08-21T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.1-405b-instruct-bf16",
+    "overall": 85.9,
+    "social": 87.7,
+    "cultural": 85.5,
+    "political": 85.4,
+    "economic": 87.0,
+    "cognitive": 83.9,
+    "updatedAt": "2025-08-20T00:00:00Z"
+  },
+  {
+    "slug": "qwq-32b",
+    "overall": 85.8,
+    "social": 84.5,
+    "cultural": 84.6,
+    "political": 87.3,
+    "economic": 83.5,
+    "cognitive": 84.2,
+    "updatedAt": "2025-08-19T00:00:00Z"
+  },
+  {
+    "slug": "o1-mini",
+    "overall": 84.6,
+    "social": 83.6,
+    "cultural": 86.9,
+    "political": 86.7,
+    "economic": 83.5,
+    "cognitive": 84.3,
+    "updatedAt": "2025-08-18T00:00:00Z"
+  },
+  {
+    "slug": "GPT-4o (08/06)",
+    "overall": 84.5,
+    "social": 86.6,
+    "cultural": 86.1,
+    "political": 87.0,
+    "economic": 86.1,
+    "cognitive": 83.3,
+    "updatedAt": "2025-08-17T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.1-405b-instruct-fp8",
+    "overall": 83.8,
+    "social": 84.6,
+    "cultural": 84.8,
+    "political": 81.4,
+    "economic": 83.8,
+    "cognitive": 84.4,
+    "updatedAt": "2025-08-16T00:00:00Z"
+  },
+  {
+    "slug": "grok-2-2024-08-13",
+    "overall": 83.5,
+    "social": 83.3,
+    "cultural": 83.9,
+    "political": 83.9,
+    "economic": 81.8,
+    "cognitive": 85.7,
+    "updatedAt": "2025-09-29T00:00:00Z"
+  },
+  {
+    "slug": "gemini-advanced-0514",
+    "overall": 84.2,
+    "social": 85.1,
+    "cultural": 86.7,
+    "political": 83.2,
+    "economic": 83.6,
+    "cognitive": 83.0,
+    "updatedAt": "2025-09-28T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.3-nemotron-49b-super-v1",
+    "overall": 84.2,
+    "social": 82.0,
+    "cultural": 85.9,
+    "political": 83.6,
+    "economic": 86.2,
+    "cognitive": 83.3,
+    "updatedAt": "2025-09-27T00:00:00Z"
+  },
+  {
+    "slug": "hunyuan-large-2025-02-10",
+    "overall": 84.3,
+    "social": 86.0,
+    "cultural": 86.6,
+    "political": 86.3,
+    "economic": 82.0,
+    "cognitive": 82.5,
+    "updatedAt": "2025-09-26T00:00:00Z"
+  },
+  {
+    "slug": "yi-lightning",
+    "overall": 83.6,
+    "social": 83.1,
+    "cultural": 82.6,
+    "political": 82.8,
+    "economic": 85.1,
+    "cognitive": 83.0,
+    "updatedAt": "2025-09-25T00:00:00Z"
+  },
+  {
+    "slug": "llama-4-maverick-17b-128e-instruct",
+    "overall": 83.0,
+    "social": 84.0,
+    "cultural": 84.0,
+    "political": 84.3,
+    "economic": 80.9,
+    "cognitive": 80.9,
+    "updatedAt": "2025-09-24T00:00:00Z"
+  },
+  {
+    "slug": "qwen3-30b-a3b",
+    "overall": 83.2,
+    "social": 82.4,
+    "cultural": 81.7,
+    "political": 81.7,
+    "economic": 82.3,
+    "cognitive": 83.0,
+    "updatedAt": "2025-09-23T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-v2.5-1210",
+    "overall": 83.8,
+    "social": 84.0,
+    "cultural": 81.8,
+    "political": 84.7,
+    "economic": 83.6,
+    "cognitive": 84.2,
+    "updatedAt": "2025-09-22T00:00:00Z"
+  },
+  {
+    "slug": "gpt-4-turbo-2024-04-09",
+    "overall": 83.9,
+    "social": 82.5,
+    "cultural": 82.4,
+    "political": 85.1,
+    "economic": 81.7,
+    "cognitive": 85.6,
+    "updatedAt": "2025-09-21T00:00:00Z"
+  },
+  {
+    "slug": "llama-4-scout-17b-16e-instruct",
+    "overall": 83.7,
+    "social": 84.7,
+    "cultural": 84.2,
+    "political": 86.0,
+    "economic": 83.5,
+    "cognitive": 82.5,
+    "updatedAt": "2025-09-20T00:00:00Z"
+  },
+  {
+    "slug": "gpt-oss-20b",
+    "overall": 81.9,
+    "social": 79.6,
+    "cultural": 80.3,
+    "political": 84.0,
+    "economic": 79.9,
+    "cognitive": 83.3,
+    "updatedAt": "2025-09-19T00:00:00Z"
+  },
+  {
+    "slug": "step-1o-turbo-202506",
+    "overall": 82.3,
+    "social": 84.3,
+    "cultural": 80.9,
+    "political": 82.2,
+    "economic": 84.5,
+    "cognitive": 82.8,
+    "updatedAt": "2025-09-18T00:00:00Z"
+  },
+  {
+    "slug": "gpt-4.1-nano-2025-04-14",
+    "overall": 83.8,
+    "social": 85.9,
+    "cultural": 84.1,
+    "political": 82.4,
+    "economic": 82.5,
+    "cognitive": 84.5,
+    "updatedAt": "2025-09-17T00:00:00Z"
+  },
+  {
+    "slug": "claude-3-opus-20240229",
+    "overall": 83.4,
+    "social": 85.0,
+    "cultural": 82.2,
+    "political": 81.9,
+    "economic": 83.4,
+    "cognitive": 81.1,
+    "updatedAt": "2025-09-16T00:00:00Z"
+  },
+  {
+    "slug": "gemini-1.5-pro-001",
+    "overall": 82.9,
+    "social": 82.5,
+    "cultural": 80.9,
+    "political": 84.8,
+    "economic": 81.2,
+    "cognitive": 84.0,
+    "updatedAt": "2025-09-15T00:00:00Z"
+  },
+  {
+    "slug": "gemma-3n-e4b-it",
+    "overall": 82.5,
+    "social": 81.0,
+    "cultural": 80.1,
+    "political": 82.6,
+    "economic": 83.4,
+    "cognitive": 82.4,
+    "updatedAt": "2025-09-14T00:00:00Z"
+  },
+  {
+    "slug": "amazon-nova-experimental-chat-05-14",
+    "overall": 81.4,
+    "social": 79.4,
+    "cultural": 82.1,
+    "political": 80.5,
+    "economic": 83.4,
+    "cognitive": 83.8,
+    "updatedAt": "2025-09-13T00:00:00Z"
+  },
+  {
+    "slug": "claude-3-5-haiku-20241022",
+    "overall": 81.1,
+    "social": 81.8,
+    "cultural": 81.0,
+    "political": 79.2,
+    "economic": 82.3,
+    "cognitive": 82.0,
+    "updatedAt": "2025-09-12T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.3-70b-instruct",
+    "overall": 82.8,
+    "social": 82.1,
+    "cultural": 82.8,
+    "political": 83.8,
+    "economic": 80.9,
+    "cognitive": 83.6,
+    "updatedAt": "2025-09-11T00:00:00Z"
+  },
+  {
+    "slug": "glm-4-plus",
+    "overall": 82.1,
+    "social": 82.0,
+    "cultural": 83.6,
+    "political": 83.6,
+    "economic": 80.8,
+    "cognitive": 83.5,
+    "updatedAt": "2025-09-10T00:00:00Z"
+  },
+  {
+    "slug": "qwen-max-0919",
+    "overall": 82.4,
+    "social": 82.4,
+    "cultural": 81.2,
+    "political": 83.7,
+    "economic": 84.1,
+    "cognitive": 84.5,
+    "updatedAt": "2025-09-09T00:00:00Z"
+  },
+  {
+    "slug": "qwen2.5-plus-1127",
+    "overall": 81.6,
+    "social": 82.3,
+    "cultural": 79.7,
+    "political": 83.9,
+    "economic": 80.9,
+    "cognitive": 83.4,
+    "updatedAt": "2025-09-08T00:00:00Z"
+  },
+  {
+    "slug": "GPT-4o-mini (07/18)",
+    "overall": 82.2,
+    "social": 80.1,
+    "cultural": 80.5,
+    "political": 82.4,
+    "economic": 84.1,
+    "cognitive": 81.0,
+    "updatedAt": "2025-09-07T00:00:00Z"
+  },
+  {
+    "slug": "gpt-4-1106-preview",
+    "overall": 80.8,
+    "social": 80.1,
+    "cultural": 82.6,
+    "political": 80.4,
+    "economic": 83.1,
+    "cognitive": 80.7,
+    "updatedAt": "2025-09-06T00:00:00Z"
+  },
+  {
+    "slug": "hunyuan-standard-2025-02-10",
+    "overall": 80.3,
+    "social": 79.0,
+    "cultural": 82.0,
+    "political": 79.6,
+    "economic": 82.3,
+    "cognitive": 81.6,
+    "updatedAt": "2025-09-05T00:00:00Z"
+  },
+  {
+    "slug": "gpt-4-0125-preview",
+    "overall": 81.6,
+    "social": 80.5,
+    "cultural": 79.4,
+    "political": 82.0,
+    "economic": 81.1,
+    "cognitive": 83.9,
+    "updatedAt": "2025-09-04T00:00:00Z"
+  },
+  {
+    "slug": "athene-v2-chat",
+    "overall": 82.1,
+    "social": 80.3,
+    "cultural": 83.6,
+    "political": 80.4,
+    "economic": 84.2,
+    "cognitive": 84.3,
+    "updatedAt": "2025-09-03T00:00:00Z"
+  },
+  {
+    "slug": "mistral-large-2407",
+    "overall": 81.3,
+    "social": 82.1,
+    "cultural": 81.0,
+    "political": 82.7,
+    "economic": 79.1,
+    "cognitive": 81.8,
+    "updatedAt": "2025-09-02T00:00:00Z"
+  },
+  {
+    "slug": "Gemini-1.5-Flash-002",
+    "overall": 81.0,
+    "social": 82.8,
+    "cultural": 79.8,
+    "political": 83.0,
+    "economic": 80.9,
+    "cognitive": 79.8,
+    "updatedAt": "2025-09-01T00:00:00Z"
+  },
+  {
+    "slug": "gemma-3-4b-it",
+    "overall": 80.8,
+    "social": 81.8,
+    "cultural": 79.8,
+    "political": 79.6,
+    "economic": 79.1,
+    "cognitive": 80.2,
+    "updatedAt": "2025-08-31T00:00:00Z"
+  },
+  {
+    "slug": "grok-2-mini-2024-08-13",
+    "overall": 80.9,
+    "social": 82.8,
+    "cultural": 81.9,
+    "political": 79.4,
+    "economic": 81.1,
+    "cognitive": 79.4,
+    "updatedAt": "2025-08-30T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-v2.5",
+    "overall": 80.9,
+    "social": 79.6,
+    "cultural": 79.0,
+    "political": 81.9,
+    "economic": 80.3,
+    "cognitive": 80.0,
+    "updatedAt": "2025-08-29T00:00:00Z"
+  },
+  {
+    "slug": "athene-70b-0725",
+    "overall": 80.9,
+    "social": 80.5,
+    "cultural": 81.9,
+    "political": 78.5,
+    "economic": 82.1,
+    "cognitive": 80.2,
+    "updatedAt": "2025-08-28T00:00:00Z"
+  },
+  {
+    "slug": "mistral-large-2411",
+    "overall": 79.4,
+    "social": 80.7,
+    "cultural": 80.0,
+    "political": 79.8,
+    "economic": 80.5,
+    "cognitive": 78.1,
+    "updatedAt": "2025-08-27T00:00:00Z"
+  },
+  {
+    "slug": "magistral-medium-2506",
+    "overall": 79.7,
+    "social": 80.1,
+    "cultural": 80.8,
+    "political": 81.6,
+    "economic": 81.0,
+    "cognitive": 79.5,
+    "updatedAt": "2025-08-26T00:00:00Z"
+  },
+  {
+    "slug": "qwen2.5-72b-instruct",
+    "overall": 78.6,
+    "social": 77.6,
+    "cultural": 80.2,
+    "political": 79.2,
+    "economic": 78.9,
+    "cognitive": 77.3,
+    "updatedAt": "2025-08-25T00:00:00Z"
+  },
+  {
+    "slug": "mistral-small-3.1-24b-instruct-2503",
+    "overall": 79.1,
+    "social": 81.0,
+    "cultural": 79.9,
+    "political": 79.8,
+    "economic": 77.9,
+    "cognitive": 79.8,
+    "updatedAt": "2025-08-24T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.1-nemotron-70b-instruct",
+    "overall": 78.6,
+    "social": 79.1,
+    "cultural": 80.2,
+    "political": 76.6,
+    "economic": 77.5,
+    "cognitive": 81.0,
+    "updatedAt": "2025-08-23T00:00:00Z"
+  },
+  {
+    "slug": "hunyuan-large-vision",
+    "overall": 79.0,
+    "social": 78.4,
+    "cultural": 79.6,
+    "political": 76.9,
+    "economic": 80.0,
+    "cognitive": 80.9,
+    "updatedAt": "2025-08-22T00:00:00Z"
+  },
+  {
+    "slug": "Meta-Llama-3.1-70B-Instruct",
+    "overall": 78.7,
+    "social": 79.4,
+    "cultural": 81.2,
+    "political": 81.1,
+    "economic": 78.8,
+    "cognitive": 79.2,
+    "updatedAt": "2025-08-21T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.1-tulu-3-70b",
+    "overall": 78.7,
+    "social": 80.1,
+    "cultural": 78.0,
+    "political": 79.4,
+    "economic": 78.3,
+    "cognitive": 77.0,
+    "updatedAt": "2025-08-20T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.1-nemotron-51b-instruct",
+    "overall": 78.3,
+    "social": 77.4,
+    "cultural": 77.2,
+    "political": 80.7,
+    "economic": 79.0,
+    "cognitive": 78.0,
+    "updatedAt": "2025-08-19T00:00:00Z"
+  },
+  {
+    "slug": "jamba-1.5-large",
+    "overall": 77.9,
+    "social": 76.2,
+    "cultural": 78.2,
+    "political": 76.3,
+    "economic": 78.9,
+    "cognitive": 77.2,
+    "updatedAt": "2025-08-18T00:00:00Z"
+  },
+  {
+    "slug": "reka-core-20240904",
+    "overall": 77.8,
+    "social": 77.3,
+    "cultural": 75.8,
+    "political": 76.4,
+    "economic": 77.9,
+    "cognitive": 78.3,
+    "updatedAt": "2025-08-17T00:00:00Z"
+  },
+  {
+    "slug": "amazon-nova-pro-v1.0",
+    "overall": 77.9,
+    "social": 78.5,
+    "cultural": 76.4,
+    "political": 78.5,
+    "economic": 79.0,
+    "cognitive": 78.2,
+    "updatedAt": "2025-08-16T00:00:00Z"
+  },
+  {
+    "slug": "gpt-4-0314",
+    "overall": 78.2,
+    "social": 80.4,
+    "cultural": 76.5,
+    "political": 80.7,
+    "economic": 76.8,
+    "cognitive": 78.1,
+    "updatedAt": "2025-09-29T00:00:00Z"
+  },
+  {
+    "slug": "gemma-2-27b-it",
+    "overall": 77.0,
+    "social": 74.7,
+    "cultural": 78.3,
+    "political": 78.3,
+    "economic": 74.7,
+    "cognitive": 78.8,
+    "updatedAt": "2025-09-28T00:00:00Z"
+  },
+  {
+    "slug": "gemini-1.5-flash-001",
+    "overall": 78.6,
+    "social": 78.1,
+    "cultural": 76.6,
+    "political": 78.6,
+    "economic": 78.9,
+    "cognitive": 79.1,
+    "updatedAt": "2025-09-27T00:00:00Z"
+  },
+  {
+    "slug": "claude-3-sonnet-20240229",
+    "overall": 78.4,
+    "social": 79.5,
+    "cultural": 77.0,
+    "political": 79.9,
+    "economic": 80.9,
+    "cognitive": 79.2,
+    "updatedAt": "2025-09-26T00:00:00Z"
+  },
+  {
+    "slug": "gemma-2-9b-it-simpo",
+    "overall": 76.5,
+    "social": 78.6,
+    "cultural": 77.0,
+    "political": 78.1,
+    "economic": 78.6,
+    "cognitive": 77.3,
+    "updatedAt": "2025-09-25T00:00:00Z"
+  },
+  {
+    "slug": "nemotron-4-340b-instruct",
+    "overall": 76.4,
+    "social": 78.1,
+    "cultural": 78.7,
+    "political": 74.7,
+    "economic": 78.2,
+    "cognitive": 75.5,
+    "updatedAt": "2025-09-24T00:00:00Z"
+  },
+  {
+    "slug": "command-r-plus-08-2024",
+    "overall": 78.3,
+    "social": 80.8,
+    "cultural": 76.5,
+    "political": 79.8,
+    "economic": 77.6,
+    "cognitive": 75.9,
+    "updatedAt": "2025-09-23T00:00:00Z"
+  },
+  {
+    "slug": "glm-4-0520",
+    "overall": 78.1,
+    "social": 78.9,
+    "cultural": 76.7,
+    "political": 78.2,
+    "economic": 79.1,
+    "cognitive": 76.7,
+    "updatedAt": "2025-09-22T00:00:00Z"
+  },
+  {
+    "slug": "reka-flash-20240904",
+    "overall": 76.5,
+    "social": 78.9,
+    "cultural": 74.1,
+    "political": 75.1,
+    "economic": 75.0,
+    "cognitive": 76.9,
+    "updatedAt": "2025-09-21T00:00:00Z"
+  },
+  {
+    "slug": "llama-3-70b-instruct",
+    "overall": 76.6,
+    "social": 77.4,
+    "cultural": 79.1,
+    "political": 77.9,
+    "economic": 75.1,
+    "cognitive": 77.9,
+    "updatedAt": "2025-09-20T00:00:00Z"
+  },
+  {
+    "slug": "gpt-4-0613",
+    "overall": 76.4,
+    "social": 74.3,
+    "cultural": 75.2,
+    "political": 76.1,
+    "economic": 75.3,
+    "cognitive": 78.1,
+    "updatedAt": "2025-09-19T00:00:00Z"
+  },
+  {
+    "slug": "mistral-small-24b-instruct-2501",
+    "overall": 77.7,
+    "social": 78.2,
+    "cultural": 76.1,
+    "political": 78.8,
+    "economic": 77.7,
+    "cognitive": 80.0,
+    "updatedAt": "2025-09-18T00:00:00Z"
+  },
+  {
+    "slug": "qwen2.5-coder-32b-instruct",
+    "overall": 77.2,
+    "social": 76.1,
+    "cultural": 78.2,
+    "political": 76.9,
+    "economic": 79.4,
+    "cognitive": 79.6,
+    "updatedAt": "2025-09-17T00:00:00Z"
+  },
+  {
+    "slug": "c4ai-aya-expanse-32b",
+    "overall": 75.2,
+    "social": 74.2,
+    "cultural": 75.0,
+    "political": 73.3,
+    "economic": 75.6,
+    "cognitive": 75.6,
+    "updatedAt": "2025-09-16T00:00:00Z"
+  },
+  {
+    "slug": "gemma-2-9b-it",
+    "overall": 75.3,
+    "social": 76.1,
+    "cultural": 76.8,
+    "political": 74.9,
+    "economic": 77.1,
+    "cognitive": 74.7,
+    "updatedAt": "2025-09-15T00:00:00Z"
+  },
+  {
+    "slug": "command-r-plus",
+    "overall": 76.3,
+    "social": 75.9,
+    "cultural": 75.5,
+    "political": 75.4,
+    "economic": 75.9,
+    "cognitive": 76.3,
+    "updatedAt": "2025-09-14T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-coder-v2",
+    "overall": 76.1,
+    "social": 78.0,
+    "cultural": 77.0,
+    "political": 77.4,
+    "economic": 73.9,
+    "cognitive": 77.9,
+    "updatedAt": "2025-09-13T00:00:00Z"
+  },
+  {
+    "slug": "qwen2-72b-instruct",
+    "overall": 75.4,
+    "social": 77.5,
+    "cultural": 73.4,
+    "political": 74.0,
+    "economic": 74.1,
+    "cognitive": 76.1,
+    "updatedAt": "2025-09-12T00:00:00Z"
+  },
+  {
+    "slug": "claude-3-haiku-20240307",
+    "overall": 76.2,
+    "social": 74.2,
+    "cultural": 77.7,
+    "political": 75.6,
+    "economic": 77.4,
+    "cognitive": 76.4,
+    "updatedAt": "2025-09-11T00:00:00Z"
+  },
+  {
+    "slug": "gemini-1.5-flash-8b-001",
+    "overall": 76.6,
+    "social": 75.4,
+    "cultural": 78.9,
+    "political": 74.2,
+    "economic": 77.7,
+    "cognitive": 74.8,
+    "updatedAt": "2025-09-10T00:00:00Z"
+  },
+  {
+    "slug": "amazon-nova-lite-v1.0",
+    "overall": 76.1,
+    "social": 74.0,
+    "cultural": 77.5,
+    "political": 77.5,
+    "economic": 76.8,
+    "cognitive": 77.9,
+    "updatedAt": "2025-09-09T00:00:00Z"
+  },
+  {
+    "slug": "olmo-2-0325-32b-instruct",
+    "overall": 74.9,
+    "social": 74.9,
+    "cultural": 72.9,
+    "political": 74.1,
+    "economic": 75.4,
+    "cognitive": 76.6,
+    "updatedAt": "2025-09-08T00:00:00Z"
+  },
+  {
+    "slug": "phi-4",
+    "overall": 75.8,
+    "social": 77.9,
+    "cultural": 74.5,
+    "political": 75.7,
+    "economic": 76.8,
+    "cognitive": 77.8,
+    "updatedAt": "2025-09-07T00:00:00Z"
+  },
+  {
+    "slug": "command-r-08-2024",
+    "overall": 75.4,
+    "social": 77.5,
+    "cultural": 77.6,
+    "political": 75.6,
+    "economic": 77.6,
+    "cognitive": 77.0,
+    "updatedAt": "2025-09-06T00:00:00Z"
+  },
+  {
+    "slug": "mistral-large-2402",
+    "overall": 74.1,
+    "social": 74.3,
+    "cultural": 74.4,
+    "political": 71.7,
+    "economic": 71.9,
+    "cognitive": 72.1,
+    "updatedAt": "2025-09-05T00:00:00Z"
+  },
+  {
+    "slug": "amazon-nova-micro-v1.0",
+    "overall": 74.7,
+    "social": 72.9,
+    "cultural": 74.0,
+    "political": 76.5,
+    "economic": 75.4,
+    "cognitive": 74.2,
+    "updatedAt": "2025-09-04T00:00:00Z"
+  },
+  {
+    "slug": "jamba-1.5-mini",
+    "overall": 75.0,
+    "social": 76.6,
+    "cultural": 75.4,
+    "political": 73.1,
+    "economic": 72.7,
+    "cognitive": 73.4,
+    "updatedAt": "2025-09-03T00:00:00Z"
+  },
+  {
+    "slug": "ministral-8b-2410",
+    "overall": 74.4,
+    "social": 72.0,
+    "cultural": 74.9,
+    "political": 75.9,
+    "economic": 75.9,
+    "cognitive": 72.3,
+    "updatedAt": "2025-09-02T00:00:00Z"
+  },
+  {
+    "slug": "hunyuan-standard-256k",
+    "overall": 75.0,
+    "social": 73.1,
+    "cultural": 73.4,
+    "political": 73.3,
+    "economic": 73.7,
+    "cognitive": 77.5,
+    "updatedAt": "2025-09-01T00:00:00Z"
+  },
+  {
+    "slug": "qwen1.5-110b-chat",
+    "overall": 73.6,
+    "social": 74.4,
+    "cultural": 73.5,
+    "political": 75.6,
+    "economic": 74.6,
+    "cognitive": 71.7,
+    "updatedAt": "2025-08-31T00:00:00Z"
+  },
+  {
+    "slug": "qwen1.5-72b-chat",
+    "overall": 74.4,
+    "social": 73.8,
+    "cultural": 74.8,
+    "political": 76.3,
+    "economic": 72.8,
+    "cognitive": 74.8,
+    "updatedAt": "2025-08-30T00:00:00Z"
+  },
+  {
+    "slug": "reka-flash-21b-20240226-online",
+    "overall": 73.2,
+    "social": 75.3,
+    "cultural": 72.6,
+    "political": 73.7,
+    "economic": 75.3,
+    "cognitive": 73.8,
+    "updatedAt": "2025-08-29T00:00:00Z"
+  },
+  {
+    "slug": "gemini-pro-dev-api",
+    "overall": 73.7,
+    "social": 73.2,
+    "cultural": 74.7,
+    "political": 75.3,
+    "economic": 74.0,
+    "cognitive": 75.1,
+    "updatedAt": "2025-08-28T00:00:00Z"
+  },
+  {
+    "slug": "mixtral-8x22b-instruct-v0.1",
+    "overall": 74.9,
+    "social": 72.9,
+    "cultural": 73.1,
+    "political": 76.1,
+    "economic": 76.4,
+    "cognitive": 76.9,
+    "updatedAt": "2025-08-27T00:00:00Z"
+  },
+  {
+    "slug": "command-r",
+    "overall": 73.6,
+    "social": 74.6,
+    "cultural": 75.7,
+    "political": 72.5,
+    "economic": 71.1,
+    "cognitive": 74.8,
+    "updatedAt": "2025-08-26T00:00:00Z"
+  },
+  {
+    "slug": "reka-flash-21b-20240226",
+    "overall": 73.9,
+    "social": 73.6,
+    "cultural": 74.0,
+    "political": 73.1,
+    "economic": 72.6,
+    "cognitive": 74.1,
+    "updatedAt": "2025-08-25T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.1-tulu-3-8b",
+    "overall": 73.1,
+    "social": 72.7,
+    "cultural": 73.5,
+    "political": 72.9,
+    "economic": 72.8,
+    "cognitive": 74.7,
+    "updatedAt": "2025-08-24T00:00:00Z"
+  },
+  {
+    "slug": "gemini-pro",
+    "overall": 73.5,
+    "social": 73.3,
+    "cultural": 74.8,
+    "political": 74.9,
+    "economic": 73.7,
+    "cognitive": 72.0,
+    "updatedAt": "2025-08-23T00:00:00Z"
+  },
+  {
+    "slug": "mistral-medium",
+    "overall": 72.4,
+    "social": 74.7,
+    "cultural": 70.4,
+    "political": 74.0,
+    "economic": 74.6,
+    "cognitive": 73.7,
+    "updatedAt": "2025-08-22T00:00:00Z"
+  },
+  {
+    "slug": "c4ai-aya-expanse-8b",
+    "overall": 72.2,
+    "social": 72.6,
+    "cultural": 71.1,
+    "political": 72.7,
+    "economic": 69.9,
+    "cognitive": 74.0,
+    "updatedAt": "2025-08-21T00:00:00Z"
+  },
+  {
+    "slug": "gpt-3.5-turbo-0125",
+    "overall": 73.7,
+    "social": 75.4,
+    "cultural": 75.7,
+    "political": 75.2,
+    "economic": 71.9,
+    "cognitive": 74.1,
+    "updatedAt": "2025-08-20T00:00:00Z"
+  },
+  {
+    "slug": "llama-3-8b-instruct",
+    "overall": 71.5,
+    "social": 70.3,
+    "cultural": 74.0,
+    "political": 73.5,
+    "economic": 70.8,
+    "cognitive": 70.2,
+    "updatedAt": "2025-08-19T00:00:00Z"
+  },
+  {
+    "slug": "zephyr-orpo-141b-A35b-v0.1",
+    "overall": 73.4,
+    "social": 72.3,
+    "cultural": 75.4,
+    "political": 71.6,
+    "economic": 73.0,
+    "cognitive": 73.8,
+    "updatedAt": "2025-08-18T00:00:00Z"
+  },
+  {
+    "slug": "granite-3.1-8b-instruct",
+    "overall": 73.0,
+    "social": 72.9,
+    "cultural": 75.3,
+    "political": 75.4,
+    "economic": 73.6,
+    "cognitive": 72.9,
+    "updatedAt": "2025-08-17T00:00:00Z"
+  },
+  {
+    "slug": "yi-1.5-34b-chat",
+    "overall": 71.1,
+    "social": 72.0,
+    "cultural": 70.1,
+    "political": 70.8,
+    "economic": 70.5,
+    "cognitive": 71.9,
+    "updatedAt": "2025-08-16T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.1-8b-instruct",
+    "overall": 71.8,
+    "social": 70.0,
+    "cultural": 73.3,
+    "political": 69.6,
+    "economic": 69.9,
+    "cognitive": 73.8,
+    "updatedAt": "2025-09-29T00:00:00Z"
+  },
+  {
+    "slug": "qwen1.5-32b-chat",
+    "overall": 71.1,
+    "social": 71.0,
+    "cultural": 73.0,
+    "political": 72.3,
+    "economic": 72.7,
+    "cognitive": 70.0,
+    "updatedAt": "2025-09-28T00:00:00Z"
+  },
+  {
+    "slug": "gpt-3.5-turbo-1106",
+    "overall": 71.4,
+    "social": 73.3,
+    "cultural": 71.4,
+    "political": 73.4,
+    "economic": 73.7,
+    "cognitive": 72.8,
+    "updatedAt": "2025-09-27T00:00:00Z"
+  },
+  {
+    "slug": "phi-3-medium-4k-instruct",
+    "overall": 71.3,
+    "social": 70.6,
+    "cultural": 72.3,
+    "political": 69.6,
+    "economic": 72.6,
+    "cognitive": 73.4,
+    "updatedAt": "2025-09-26T00:00:00Z"
+  },
+  {
+    "slug": "mixtral-8x7b-instruct-v0.1",
+    "overall": 70.5,
+    "social": 71.4,
+    "cultural": 69.0,
+    "political": 71.7,
+    "economic": 69.5,
+    "cognitive": 71.5,
+    "updatedAt": "2025-09-25T00:00:00Z"
+  },
+  {
+    "slug": "gemma-2-2b-it",
+    "overall": 71.1,
+    "social": 70.8,
+    "cultural": 71.8,
+    "political": 73.1,
+    "economic": 69.9,
+    "cognitive": 70.0,
+    "updatedAt": "2025-09-24T00:00:00Z"
+  },
+  {
+    "slug": "dbrx-instruct-preview",
+    "overall": 70.2,
+    "social": 68.4,
+    "cultural": 69.8,
+    "political": 68.2,
+    "economic": 69.0,
+    "cognitive": 72.5,
+    "updatedAt": "2025-09-23T00:00:00Z"
+  },
+  {
+    "slug": "qwen1.5-14b-chat",
+    "overall": 71.5,
+    "social": 73.9,
+    "cultural": 72.3,
+    "political": 72.7,
+    "economic": 71.6,
+    "cognitive": 73.9,
+    "updatedAt": "2025-09-22T00:00:00Z"
+  },
+  {
+    "slug": "internlm2_5-20b-chat",
+    "overall": 71.4,
+    "social": 72.5,
+    "cultural": 71.4,
+    "political": 70.1,
+    "economic": 68.9,
+    "cognitive": 69.3,
+    "updatedAt": "2025-09-21T00:00:00Z"
+  },
+  {
+    "slug": "wizardlm-70b",
+    "overall": 70.8,
+    "social": 70.6,
+    "cultural": 72.0,
+    "political": 70.5,
+    "economic": 72.5,
+    "cognitive": 69.5,
+    "updatedAt": "2025-09-20T00:00:00Z"
+  },
+  {
+    "slug": "deepseek-llm-67b-chat",
+    "overall": 69.5,
+    "social": 70.2,
+    "cultural": 67.5,
+    "political": 71.2,
+    "economic": 67.9,
+    "cognitive": 69.6,
+    "updatedAt": "2025-09-19T00:00:00Z"
+  },
+  {
+    "slug": "yi-34b-chat",
+    "overall": 71.0,
+    "social": 73.1,
+    "cultural": 72.8,
+    "political": 70.7,
+    "economic": 69.7,
+    "cognitive": 73.0,
+    "updatedAt": "2025-09-18T00:00:00Z"
+  },
+  {
+    "slug": "openchat-3.5-0106",
+    "overall": 70.3,
+    "social": 72.3,
+    "cultural": 72.7,
+    "political": 68.4,
+    "economic": 68.4,
+    "cognitive": 72.4,
+    "updatedAt": "2025-09-17T00:00:00Z"
+  },
+  {
+    "slug": "granite-3.0-8b-instruct",
+    "overall": 69.5,
+    "social": 68.6,
+    "cultural": 71.7,
+    "political": 67.6,
+    "economic": 70.2,
+    "cognitive": 67.8,
+    "updatedAt": "2025-09-16T00:00:00Z"
+  },
+  {
+    "slug": "openchat-3.5",
+    "overall": 69.5,
+    "social": 68.0,
+    "cultural": 70.8,
+    "political": 67.5,
+    "economic": 69.5,
+    "cognitive": 67.3,
+    "updatedAt": "2025-09-15T00:00:00Z"
+  },
+  {
+    "slug": "granite-3.1-2b-instruct",
+    "overall": 68.8,
+    "social": 68.8,
+    "cultural": 69.2,
+    "political": 70.2,
+    "economic": 71.3,
+    "cognitive": 71.0,
+    "updatedAt": "2025-09-14T00:00:00Z"
+  },
+  {
+    "slug": "snowflake-arctic-instruct",
+    "overall": 71.0,
+    "social": 71.1,
+    "cultural": 72.1,
+    "political": 70.7,
+    "economic": 69.7,
+    "cognitive": 68.6,
+    "updatedAt": "2025-09-13T00:00:00Z"
+  },
+  {
+    "slug": "tulu-2-dpo-70b",
+    "overall": 68.6,
+    "social": 66.7,
+    "cultural": 66.4,
+    "political": 67.6,
+    "economic": 70.6,
+    "cognitive": 67.4,
+    "updatedAt": "2025-09-12T00:00:00Z"
+  },
+  {
+    "slug": "openhermes-2.5-mistral-7b",
+    "overall": 69.6,
+    "social": 70.1,
+    "cultural": 69.5,
+    "political": 69.5,
+    "economic": 67.6,
+    "cognitive": 67.9,
+    "updatedAt": "2025-09-11T00:00:00Z"
+  },
+  {
+    "slug": "gemma-1.1-7b-it",
+    "overall": 70.0,
+    "social": 68.6,
+    "cultural": 67.7,
+    "political": 70.5,
+    "economic": 69.7,
+    "cognitive": 67.7,
+    "updatedAt": "2025-09-10T00:00:00Z"
+  },
+  {
+    "slug": "vicuna-33b",
+    "overall": 69.2,
+    "social": 68.6,
+    "cultural": 71.0,
+    "political": 70.8,
+    "economic": 69.4,
+    "cognitive": 67.8,
+    "updatedAt": "2025-09-09T00:00:00Z"
+  },
+  {
+    "slug": "starling-lm-7b-beta",
+    "overall": 70.3,
+    "social": 69.2,
+    "cultural": 69.3,
+    "political": 72.8,
+    "economic": 72.3,
+    "cognitive": 71.4,
+    "updatedAt": "2025-09-08T00:00:00Z"
+  },
+  {
+    "slug": "phi-3-small-8k-instruct",
+    "overall": 67.9,
+    "social": 67.4,
+    "cultural": 70.1,
+    "political": 68.2,
+    "economic": 69.2,
+    "cognitive": 65.7,
+    "updatedAt": "2025-09-07T00:00:00Z"
+  },
+  {
+    "slug": "nous-hermes-2-mixtral-8x7b-dpo",
+    "overall": 67.8,
+    "social": 70.1,
+    "cultural": 67.0,
+    "political": 68.7,
+    "economic": 67.2,
+    "cognitive": 66.0,
+    "updatedAt": "2025-09-06T00:00:00Z"
+  },
+  {
+    "slug": "llama-2-70b-chat",
+    "overall": 67.8,
+    "social": 66.9,
+    "cultural": 68.5,
+    "political": 66.5,
+    "economic": 70.1,
+    "cognitive": 66.8,
+    "updatedAt": "2025-09-05T00:00:00Z"
+  },
+  {
+    "slug": "starling-lm-7b-alpha",
+    "overall": 67.4,
+    "social": 69.2,
+    "cultural": 65.4,
+    "political": 68.8,
+    "economic": 65.4,
+    "cognitive": 65.6,
+    "updatedAt": "2025-09-04T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.2-3b-instruct",
+    "overall": 69.3,
+    "social": 71.1,
+    "cultural": 67.3,
+    "political": 67.8,
+    "economic": 69.6,
+    "cognitive": 70.4,
+    "updatedAt": "2025-09-03T00:00:00Z"
+  },
+  {
+    "slug": "qwq-32b-preview",
+    "overall": 68.8,
+    "social": 66.4,
+    "cultural": 70.4,
+    "political": 70.4,
+    "economic": 71.1,
+    "cognitive": 68.6,
+    "updatedAt": "2025-09-02T00:00:00Z"
+  },
+  {
+    "slug": "llama2-70b-steerlm-chat",
+    "overall": 68.2,
+    "social": 68.1,
+    "cultural": 66.4,
+    "political": 69.1,
+    "economic": 66.5,
+    "cognitive": 70.0,
+    "updatedAt": "2025-09-01T00:00:00Z"
+  },
+  {
+    "slug": "solar-10.7b-instruct-v1.0",
+    "overall": 68.5,
+    "social": 67.3,
+    "cultural": 68.0,
+    "political": 70.2,
+    "economic": 70.7,
+    "cognitive": 66.2,
+    "updatedAt": "2025-08-31T00:00:00Z"
+  },
+  {
+    "slug": "dolphin-2.2.1-mistral-7b",
+    "overall": 66.8,
+    "social": 65.2,
+    "cultural": 68.1,
+    "political": 65.7,
+    "economic": 68.7,
+    "cognitive": 68.7,
+    "updatedAt": "2025-08-30T00:00:00Z"
+  },
+  {
+    "slug": "granite-3.0-2b-instruct",
+    "overall": 68.4,
+    "social": 68.8,
+    "cultural": 67.4,
+    "political": 68.2,
+    "economic": 69.1,
+    "cognitive": 69.8,
+    "updatedAt": "2025-08-29T00:00:00Z"
+  },
+  {
+    "slug": "mpt-30b-chat",
+    "overall": 68.2,
+    "social": 65.9,
+    "cultural": 66.5,
+    "political": 65.7,
+    "economic": 67.1,
+    "cognitive": 68.4,
+    "updatedAt": "2025-08-28T00:00:00Z"
+  },
+  {
+    "slug": "falcon-180b-chat",
+    "overall": 67.9,
+    "social": 65.5,
+    "cultural": 69.9,
+    "political": 69.9,
+    "economic": 70.2,
+    "cognitive": 67.0,
+    "updatedAt": "2025-08-27T00:00:00Z"
+  },
+  {
+    "slug": "wizardlm-13b",
+    "overall": 67.0,
+    "social": 66.7,
+    "cultural": 64.7,
+    "political": 65.0,
+    "economic": 68.6,
+    "cognitive": 66.9,
+    "updatedAt": "2025-08-26T00:00:00Z"
+  },
+  {
+    "slug": "mistral-7b-instruct-v0.2",
+    "overall": 66.2,
+    "social": 65.8,
+    "cultural": 65.5,
+    "political": 66.2,
+    "economic": 66.2,
+    "cognitive": 65.4,
+    "updatedAt": "2025-08-25T00:00:00Z"
+  },
+  {
+    "slug": "qwen1.5-7b-chat",
+    "overall": 68.2,
+    "social": 66.9,
+    "cultural": 68.1,
+    "political": 66.1,
+    "economic": 66.2,
+    "cognitive": 69.5,
+    "updatedAt": "2025-08-24T00:00:00Z"
+  },
+  {
+    "slug": "phi-3-mini-4k-instruct-june-2024",
+    "overall": 67.8,
+    "social": 68.3,
+    "cultural": 69.4,
+    "political": 68.2,
+    "economic": 69.5,
+    "cognitive": 66.2,
+    "updatedAt": "2025-08-23T00:00:00Z"
+  },
+  {
+    "slug": "llama-2-13b-chat",
+    "overall": 65.6,
+    "social": 66.6,
+    "cultural": 67.9,
+    "political": 64.9,
+    "economic": 63.9,
+    "cognitive": 64.6,
+    "updatedAt": "2025-08-22T00:00:00Z"
+  },
+  {
+    "slug": "vicuna-13b",
+    "overall": 67.2,
+    "social": 66.0,
+    "cultural": 69.3,
+    "political": 66.4,
+    "economic": 68.1,
+    "cognitive": 68.2,
+    "updatedAt": "2025-08-21T00:00:00Z"
+  },
+  {
+    "slug": "qwen-14b-chat",
+    "overall": 66.6,
+    "social": 68.1,
+    "cultural": 68.9,
+    "political": 69.1,
+    "economic": 68.8,
+    "cognitive": 67.2,
+    "updatedAt": "2025-08-20T00:00:00Z"
+  },
+  {
+    "slug": "codellama-34b-instruct",
+    "overall": 66.8,
+    "social": 67.9,
+    "cultural": 65.0,
+    "political": 64.3,
+    "economic": 68.5,
+    "cognitive": 64.5,
+    "updatedAt": "2025-08-19T00:00:00Z"
+  },
+  {
+    "slug": "palm-2",
+    "overall": 65.0,
+    "social": 62.8,
+    "cultural": 67.3,
+    "political": 65.1,
+    "economic": 65.6,
+    "cognitive": 62.8,
+    "updatedAt": "2025-08-18T00:00:00Z"
+  },
+  {
+    "slug": "gemma-7b-it",
+    "overall": 64.8,
+    "social": 64.6,
+    "cultural": 66.0,
+    "political": 64.3,
+    "economic": 65.2,
+    "cognitive": 64.7,
+    "updatedAt": "2025-08-17T00:00:00Z"
+  },
+  {
+    "slug": "zephyr-7b-beta",
+    "overall": 65.8,
+    "social": 67.7,
+    "cultural": 68.3,
+    "political": 65.6,
+    "economic": 66.9,
+    "cognitive": 65.9,
+    "updatedAt": "2025-08-16T00:00:00Z"
+  },
+  {
+    "slug": "zephyr-7b-alpha",
+    "overall": 64.9,
+    "social": 66.9,
+    "cultural": 66.0,
+    "political": 62.9,
+    "economic": 65.7,
+    "cognitive": 63.3,
+    "updatedAt": "2025-09-29T00:00:00Z"
+  },
+  {
+    "slug": "guanaco-33b",
+    "overall": 66.3,
+    "social": 64.5,
+    "cultural": 66.6,
+    "political": 67.3,
+    "economic": 64.2,
+    "cognitive": 68.0,
+    "updatedAt": "2025-09-28T00:00:00Z"
+  },
+  {
+    "slug": "phi-3-mini-128k-instruct",
+    "overall": 65.2,
+    "social": 67.0,
+    "cultural": 62.9,
+    "political": 64.2,
+    "economic": 67.3,
+    "cognitive": 66.7,
+    "updatedAt": "2025-09-27T00:00:00Z"
+  },
+  {
+    "slug": "codellama-70b-instruct",
+    "overall": 66.4,
+    "social": 67.0,
+    "cultural": 65.4,
+    "political": 64.2,
+    "economic": 64.6,
+    "cognitive": 65.3,
+    "updatedAt": "2025-09-26T00:00:00Z"
+  },
+  {
+    "slug": "phi-3-mini-4k-instruct",
+    "overall": 65.6,
+    "social": 65.2,
+    "cultural": 63.7,
+    "political": 67.9,
+    "economic": 66.4,
+    "cognitive": 63.9,
+    "updatedAt": "2025-09-25T00:00:00Z"
+  },
+  {
+    "slug": "stripedhyena-nous-7b",
+    "overall": 66.1,
+    "social": 66.4,
+    "cultural": 67.9,
+    "political": 67.1,
+    "economic": 65.5,
+    "cognitive": 67.5,
+    "updatedAt": "2025-09-24T00:00:00Z"
+  },
+  {
+    "slug": "smollm2-1.7b-instruct",
+    "overall": 64.6,
+    "social": 66.1,
+    "cultural": 63.0,
+    "political": 62.6,
+    "economic": 62.1,
+    "cognitive": 62.9,
+    "updatedAt": "2025-09-23T00:00:00Z"
+  },
+  {
+    "slug": "vicuna-7b",
+    "overall": 65.7,
+    "social": 64.1,
+    "cultural": 67.9,
+    "political": 65.0,
+    "economic": 67.7,
+    "cognitive": 63.9,
+    "updatedAt": "2025-09-22T00:00:00Z"
+  },
+  {
+    "slug": "llama-3.2-1b-instruct",
+    "overall": 64.5,
+    "social": 62.1,
+    "cultural": 63.1,
+    "political": 66.4,
+    "economic": 64.0,
+    "cognitive": 64.3,
+    "updatedAt": "2025-09-21T00:00:00Z"
+  },
+  {
+    "slug": "gemma-1.1-2b-it",
+    "overall": 63.8,
+    "social": 64.5,
+    "cultural": 61.3,
+    "political": 61.4,
+    "economic": 65.4,
+    "cognitive": 62.6,
+    "updatedAt": "2025-09-20T00:00:00Z"
+  },
+  {
+    "slug": "mistral-7b-instruct",
+    "overall": 64.0,
+    "social": 61.9,
+    "cultural": 66.5,
+    "political": 62.0,
+    "economic": 61.7,
+    "cognitive": 62.8,
+    "updatedAt": "2025-09-19T00:00:00Z"
+  },
+  {
+    "slug": "llama-2-7b-chat",
+    "overall": 64.2,
+    "social": 64.1,
+    "cultural": 61.8,
+    "political": 64.1,
+    "economic": 65.1,
+    "cognitive": 65.5,
+    "updatedAt": "2025-09-18T00:00:00Z"
+  },
+  {
+    "slug": "gemma-2b-it",
+    "overall": 65.2,
+    "social": 63.3,
+    "cultural": 64.3,
+    "political": 66.7,
+    "economic": 65.2,
+    "cognitive": 63.1,
+    "updatedAt": "2025-09-17T00:00:00Z"
+  },
+  {
+    "slug": "qwen1.5-4b-chat",
+    "overall": 62.9,
+    "social": 61.8,
+    "cultural": 63.3,
+    "political": 62.6,
+    "economic": 64.1,
+    "cognitive": 64.8,
+    "updatedAt": "2025-09-16T00:00:00Z"
+  },
+  {
+    "slug": "olmo-7b-instruct",
+    "overall": 64.9,
+    "social": 64.3,
+    "cultural": 65.4,
+    "political": 66.4,
+    "economic": 66.5,
+    "cognitive": 64.9,
+    "updatedAt": "2025-09-15T00:00:00Z"
+  },
+  {
+    "slug": "koala-13b",
+    "overall": 64.9,
+    "social": 66.4,
+    "cultural": 65.2,
+    "political": 63.5,
+    "economic": 66.3,
+    "cognitive": 63.0,
+    "updatedAt": "2025-09-14T00:00:00Z"
+  },
+  {
+    "slug": "gpt4all-13b-snoozy",
+    "overall": 64.1,
+    "social": 62.9,
+    "cultural": 62.8,
+    "political": 62.7,
+    "economic": 64.2,
+    "cognitive": 66.5,
+    "updatedAt": "2025-09-13T00:00:00Z"
+  },
+  {
+    "slug": "alpaca-13b",
+    "overall": 62.2,
+    "social": 60.7,
+    "cultural": 63.5,
+    "political": 61.4,
+    "economic": 63.3,
+    "cognitive": 63.9,
+    "updatedAt": "2025-09-12T00:00:00Z"
+  },
+  {
+    "slug": "mpt-7b-chat",
+    "overall": 63.4,
+    "social": 63.8,
+    "cultural": 61.9,
+    "political": 63.3,
+    "economic": 63.6,
+    "cognitive": 65.4,
+    "updatedAt": "2025-09-11T00:00:00Z"
+  },
+  {
+    "slug": "chatglm3-6b",
+    "overall": 62.9,
+    "social": 61.3,
+    "cultural": 63.0,
+    "political": 60.9,
+    "economic": 65.2,
+    "cognitive": 62.8,
+    "updatedAt": "2025-09-10T00:00:00Z"
+  },
+  {
+    "slug": "RWKV-4-Raven-14B",
+    "overall": 63.2,
+    "social": 64.5,
+    "cultural": 62.8,
+    "political": 64.2,
+    "economic": 63.4,
+    "cognitive": 65.1,
+    "updatedAt": "2025-09-09T00:00:00Z"
+  },
+  {
+    "slug": "chatglm2-6b",
+    "overall": 63.6,
+    "social": 64.3,
+    "cultural": 62.3,
+    "political": 64.8,
+    "economic": 63.9,
+    "cognitive": 64.4,
+    "updatedAt": "2025-09-08T00:00:00Z"
+  },
+  {
+    "slug": "oasst-pythia-12b",
+    "overall": 62.0,
+    "social": 62.0,
+    "cultural": 64.2,
+    "political": 60.9,
+    "economic": 63.2,
+    "cognitive": 59.8,
+    "updatedAt": "2025-09-07T00:00:00Z"
+  },
+  {
+    "slug": "chatglm-6b",
+    "overall": 62.0,
+    "social": 63.5,
+    "cultural": 63.9,
+    "political": 62.9,
+    "economic": 61.5,
+    "cognitive": 63.5,
+    "updatedAt": "2025-09-06T00:00:00Z"
+  },
+  {
+    "slug": "fastchat-t5-3b",
+    "overall": 62.0,
+    "social": 64.5,
+    "cultural": 64.3,
+    "political": 59.7,
+    "economic": 62.1,
+    "cognitive": 64.1,
+    "updatedAt": "2025-09-05T00:00:00Z"
+  },
+  {
+    "slug": "dolly-v2-12b",
+    "overall": 62.0,
+    "social": 62.6,
+    "cultural": 60.2,
+    "political": 63.8,
+    "economic": 59.7,
+    "cognitive": 59.7,
+    "updatedAt": "2025-09-04T00:00:00Z"
+  },
+  {
+    "slug": "llama-13b",
+    "overall": 62.0,
+    "social": 62.2,
+    "cultural": 64.5,
+    "political": 59.6,
+    "economic": 59.7,
+    "cognitive": 63.9,
+    "updatedAt": "2025-09-03T00:00:00Z"
+  },
+  {
+    "slug": "stablelm-tuned-alpha-7b",
+    "overall": 63.2,
+    "social": 61.3,
+    "cultural": 64.8,
+    "political": 63.1,
+    "economic": 64.1,
+    "cognitive": 65.4,
+    "updatedAt": "2025-09-02T00:00:00Z"
+  }
+]

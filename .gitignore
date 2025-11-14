@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+biasbench_remote/
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Misc
+.env*
+*.log
+*.tsbuildinfo
+yarn.lock
+pnpm-lock.yaml
+temp/
+tmp/
+.DS_Store
