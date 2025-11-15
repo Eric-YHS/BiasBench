@@ -1,4 +1,4 @@
-export type BiasCategoryKey = "social" | "cultural" | "political" | "economic" | "cognitive";
+export type BiasCategoryKey = "social" | "cultural" | "economic" | "political";
 
 export function formatNumber(n: number, digits = 0) {
   return Intl.NumberFormat("en-US", {
@@ -21,15 +21,12 @@ export type Model = {
 
 export type ScoreRow = {
   slug: string;
-  totalScore1: number;
-  totalScore2: number;
+  overall: number;
   social: number;
   cultural: number;
-  political: number;
   economic: number;
-  cognitive: number;
+  political: number;
   updatedAt: string;
-  overall?: number;
 };
 
 export type BiasCategory = {

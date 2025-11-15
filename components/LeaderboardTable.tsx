@@ -7,16 +7,14 @@ import type { Route } from "next";
 import ScoreBadge from "./ScoreBadge";
 import type { Model, ScoreRow } from "@/lib/utils";
 
-type SortKey = "totalScore1" | "totalScore2" | "social" | "cultural" | "political" | "economic" | "cognitive";
+type SortKey = "overall" | "social" | "cultural" | "economic" | "political";
 
 const NUMERIC_COLUMNS: { key: SortKey; label: string }[] = [
-  { key: "totalScore1", label: "Total Score 1" },
-  { key: "totalScore2", label: "Total Score 2" },
   { key: "social", label: "Social" },
   { key: "cultural", label: "Cultural" },
-  { key: "political", label: "Political" },
   { key: "economic", label: "Economic" },
-  { key: "cognitive", label: "Cognitive" },
+  { key: "political", label: "Political" },
+  { key: "overall", label: "Overall" },
 ];
 
 const DEFAULT_LIMIT = 30;
@@ -46,21 +44,21 @@ function ModelNameCell({ model, href }: { model: Model; href: string }) {
   );
 }
 
-function resolveSortKey(sortBy?: keyof ScoreRow): SortKey {
+function resolveSortKey(sortBy?: SortKey): SortKey {
   return NUMERIC_COLUMNS.some(column => column.key === sortBy)
     ? (sortBy as SortKey)
-    : "totalScore1";
+    : "overall";
 }
 
 export default function LeaderboardTable({
   models,
   scores,
-  sortBy = "totalScore1",
+  sortBy = "overall",
   limit = DEFAULT_LIMIT,
 }: {
   models: Model[];
   scores: ScoreRow[];
-  sortBy?: keyof ScoreRow;
+  sortBy?: SortKey;
   limit?: number;
 }) {
   const [sortState, setSortState] = useState<{ key: SortKey; direction: "asc" | "desc" }>({
@@ -144,17 +142,13 @@ export default function LeaderboardTable({
                 <ModelNameCell model={row.model} href={`/models/${row.slug}`} />
               </td>
               <td className="min-w-[160px] text-sm text-slate-600">{row.model.org ?? "Unknown"}</td>
-              <td>
-                <ScoreBadge score={row.totalScore1} />
-              </td>
-              <td>
-                <ScoreBadge score={row.totalScore2} />
-              </td>
               <td>{row.social.toFixed(1)}</td>
               <td>{row.cultural.toFixed(1)}</td>
-              <td>{row.political.toFixed(1)}</td>
               <td>{row.economic.toFixed(1)}</td>
-              <td>{row.cognitive.toFixed(1)}</td>
+              <td>{row.political.toFixed(1)}</td>
+              <td>
+                <ScoreBadge score={row.overall} />
+              </td>
             </tr>
           ))}
           {visibleRows.length === 0 && (

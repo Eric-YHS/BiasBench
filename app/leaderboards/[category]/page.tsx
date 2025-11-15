@@ -4,7 +4,7 @@ import CategoryTabs from "@/components/CategoryTabs";
 import { getCategoryName } from "@/lib/categories";
 import { loadDataset } from "@/lib/data-source";
 
-const VALID_KEYS = ["social", "cultural", "political", "economic", "cognitive"] as const;
+const VALID_KEYS = ["social", "cultural", "economic", "political"] as const;
 
 type CategoryKey = (typeof VALID_KEYS)[number];
 

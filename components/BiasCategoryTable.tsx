@@ -45,7 +45,7 @@ function ModelNameCell({ model, href }: { model: Model; href: string }) {
 }
 
 type BiasTableState = {
-  sortKey: "biasScore" | "totalScore1";
+  sortKey: "biasScore" | "overall";
   direction: "asc" | "desc";
   expanded: boolean;
 };
@@ -96,7 +96,7 @@ export default function BiasCategoryTable({
                   return {
                     slug: score.slug,
                     model,
-                    totalScore1: score.totalScore1,
+                    overall: score.overall,
                     biasScore: deriveBiasScore(score, bias.key, category.key),
                   };
                 })
@@ -108,7 +108,7 @@ export default function BiasCategoryTable({
                 const diff =
                   state.sortKey === "biasScore"
                     ? a.biasScore - b.biasScore
-                    : a.totalScore1 - b.totalScore1;
+                    : a.overall - b.overall;
                 if (diff === 0) {
                   return a.model.name.localeCompare(b.model.name);
                 }
@@ -148,7 +148,7 @@ export default function BiasCategoryTable({
                           <th className="w-14">Rank</th>
                           <th>Model</th>
                           <th>Provider</th>
-                          {renderSortHeader("totalScore1", "Total Score 1")}
+                          {renderSortHeader("overall", "Overall")}
                           {renderSortHeader("biasScore", bias.en)}
                         </tr>
                       </thead>
@@ -163,7 +163,7 @@ export default function BiasCategoryTable({
                               {row.model.org ?? "Unknown"}
                             </td>
                             <td>
-                              <ScoreBadge score={row.totalScore1} />
+                              <ScoreBadge score={row.overall} />
                             </td>
                             <td>{row.biasScore.toFixed(1)}</td>
                           </tr>

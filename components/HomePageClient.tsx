@@ -2,12 +2,13 @@
 
 import { useEffect, useMemo, useState } from "react";
 import LeaderboardTable from "@/components/LeaderboardTable";
-import BiasCategoryTable from "@/components/BiasCategoryTable";
-import type { BiasCategory, Model, ScoreRow } from "@/lib/utils";
+import MajorTypeTable from "@/components/MajorTypeTable";
+import type { BiasCategory, BiasCategoryKey, Model, ModelBiasDetail, ScoreRow } from "@/lib/utils";
 
 type Dataset = {
   models: Model[];
   scores: ScoreRow[];
+  subscores: ModelBiasDetail[];
   biasCategories: BiasCategory[];
 };
 
@@ -22,7 +23,7 @@ function normalise(text: string) {
 export default function HomePageClient({ initialData }: HomePageClientProps) {
   const [data, setData] = useState<Dataset>(initialData);
   const [searchTerm, setSearchTerm] = useState("");
-  const { models, scores, biasCategories } = data;
+  const { models, scores, subscores, biasCategories } = data;
 
   useEffect(() => {
     let cancelled = false;
@@ -73,6 +74,11 @@ export default function HomePageClient({ initialData }: HomePageClientProps) {
     return scores.filter(row => filteredSlugs.has(row.slug));
   }, [scores, filteredSlugs, query]);
 
+  const filteredSubscores = useMemo(() => {
+    if (!query || !filteredSlugs) return subscores;
+    return subscores.filter(row => filteredSlugs.has(row.slug));
+  }, [subscores, filteredSlugs, query]);
+
   const modelCount = models.length;
   const lastUpdatedTimestamp = scores.reduce((latest: number, item) => {
     const current = item?.updatedAt ? new Date(item.updatedAt).getTime() : NaN;
@@ -86,6 +92,14 @@ export default function HomePageClient({ initialData }: HomePageClientProps) {
         day: "numeric",
       }).format(new Date(lastUpdatedTimestamp))
     : null;
+
+  const MAJOR_ORDER: BiasCategoryKey[] = ["social", "cultural", "economic", "political"];
+  const orderedCategories = useMemo(() => {
+    const lookup = new Map(biasCategories.map(category => [category.key, category]));
+    return MAJOR_ORDER.map(key => lookup.get(key)).filter(
+      (category): category is BiasCategory => Boolean(category)
+    );
+  }, [biasCategories]);
 
   return (
     <div className="container-narrow space-y-10">
@@ -112,15 +126,27 @@ export default function HomePageClient({ initialData }: HomePageClientProps) {
         </div>
       </div>
 
-      <LeaderboardTable models={filteredModels} scores={filteredScores} sortBy="totalScore1" />
+      <LeaderboardTable models={filteredModels} scores={filteredScores} sortBy="overall" />
 
-      <section className="space-y-3">
-        <h2 className="h2">Bias dimension leaderboards</h2>
-        <p className="text-sm text-slate-500">
-          Explore synthetic scores for each bias dimension alongside the main totals and model
-          metadata.
-        </p>
-        <BiasCategoryTable categories={biasCategories} models={filteredModels} scores={filteredScores} />
+      <section className="space-y-4">
+        <div>
+          <h2 className="h2">Primary bias leaderboards</h2>
+          <p className="text-sm text-slate-500">
+            Each table highlights all secondary bias types under its primary dimension, keeping the
+            official BiasBench ordering and showing total scores on the right.
+          </p>
+        </div>
+        <div className="space-y-10">
+          {orderedCategories.map(category => (
+            <MajorTypeTable
+              key={category.key}
+              category={category}
+              models={filteredModels}
+              scores={filteredScores}
+              subscores={filteredSubscores}
+            />
+          ))}
+        </div>
       </section>
     </div>
   );

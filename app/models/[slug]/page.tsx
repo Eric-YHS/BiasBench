@@ -8,14 +8,14 @@ import { formatNumber } from "@/lib/utils";
 
 const ModelBiasBars = nextDynamic(() => import("@/components/ModelBiasBars"), { ssr: false });
 
-const METRICS: { key: keyof ScoreRow; label: string }[] = [
-  { key: "totalScore1", label: "Total Score 1" },
-  { key: "totalScore2", label: "Total Score 2" },
+type MetricKey = "overall" | "social" | "cultural" | "economic" | "political";
+
+const METRICS: { key: MetricKey; label: string }[] = [
+  { key: "overall", label: "Overall" },
   { key: "social", label: "Social" },
   { key: "cultural", label: "Cultural" },
-  { key: "political", label: "Political" },
   { key: "economic", label: "Economic" },
-  { key: "cognitive", label: "Cognitive" },
+  { key: "political", label: "Political" },
 ];
 
 export const dynamic = "force-dynamic";
@@ -33,9 +33,8 @@ export default async function ModelPage({ params }: { params: { slug: string } }
   const radar = [
     { name: "Social", value: row.social },
     { name: "Cultural", value: row.cultural },
-    { name: "Political", value: row.political },
     { name: "Economic", value: row.economic },
-    { name: "Cognitive", value: row.cognitive },
+    { name: "Political", value: row.political },
   ];
 
   const metricCards = METRICS.map(metric => {

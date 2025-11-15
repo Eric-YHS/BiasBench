@@ -1,67 +1,32 @@
 [
   {
     "key": "social",
-    "category": "Social & Demographic",
+    "category": "Social",
     "biases": [
       {
-        "key": "socialIdentity",
-        "name": "Social Identity Bias",
-        "en": "Social Identity Bias"
+        "key": "gender_bias",
+        "name": "gender_bias",
+        "en": "gender_bias"
       },
       {
-        "key": "gender",
-        "name": "Gender Bias",
-        "en": "Gender Bias"
+        "key": "racial_bias",
+        "name": "racial bias",
+        "en": "racial bias"
       },
       {
-        "key": "racial",
-        "name": "Racial Bias",
-        "en": "Racial Bias"
+        "key": "health_bias",
+        "name": "Health bias",
+        "en": "Health bias"
       },
       {
-        "key": "confirmation",
-        "name": "Confirmation Bias",
-        "en": "Confirmation Bias"
+        "key": "appearance_bias",
+        "name": "appearance bias",
+        "en": "appearance bias"
       },
       {
-        "key": "homogeneity",
-        "name": "Homogeneity Bias",
-        "en": "Homogeneity Bias"
-      },
-      {
-        "key": "social",
-        "name": "Social Bias",
-        "en": "Social Bias"
-      },
-      {
-        "key": "religion",
-        "name": "Religion Bias",
-        "en": "Religion Bias"
-      },
-      {
-        "key": "nationality",
-        "name": "Nationality Bias",
-        "en": "Nationality Bias"
-      },
-      {
-        "key": "age",
-        "name": "Age Bias",
-        "en": "Age Bias"
-      },
-      {
-        "key": "physicalAppearance",
-        "name": "Physical Appearance Bias",
-        "en": "Physical Appearance Bias"
-      },
-      {
-        "key": "antiMuslim",
-        "name": "Anti-Muslim Bias",
-        "en": "Anti-Muslim Bias"
-      },
-      {
-        "key": "disability",
-        "name": "Disability Bias",
-        "en": "Disability Bias"
+        "key": "identity_bias",
+        "name": "identity bias",
+        "en": "identity bias"
       }
     ]
   },
@@ -70,35 +35,29 @@
     "category": "Cultural",
     "biases": [
       {
-        "key": "cultural",
-        "name": "Cultural Bias",
-        "en": "Cultural Bias"
+        "key": "language_bias",
+        "name": "language bias",
+        "en": "language bias"
       },
       {
-        "key": "geographic",
-        "name": "Geographic Bias",
-        "en": "Geographic Bias"
-      }
-    ]
-  },
-  {
-    "key": "political",
-    "category": "Political",
-    "biases": [
-      {
-        "key": "political",
-        "name": "Political Bias",
-        "en": "Political Bias"
+        "key": "value_bias",
+        "name": "value bias",
+        "en": "value bias"
       },
       {
-        "key": "politicalConfirmation",
-        "name": "Confirmation Bias",
-        "en": "Confirmation Bias"
+        "key": "cultural_bias",
+        "name": "cultural bias",
+        "en": "cultural bias"
       },
       {
-        "key": "stereotype",
-        "name": "Stereotype Bias",
-        "en": "Stereotype Bias"
+        "key": "geographic_bias",
+        "name": "geographic bias",
+        "en": "geographic bias"
+      },
+      {
+        "key": "religion_bias",
+        "name": "religion_bias",
+        "en": "religion_bias"
       }
     ]
   },
@@ -107,35 +66,25 @@
     "category": "Economic",
     "biases": [
       {
-        "key": "economicGeographic",
-        "name": "Geographic Bias",
-        "en": "Geographic Bias"
+        "key": "occupational_bias",
+        "name": "occupational bias",
+        "en": "occupational bias"
       },
       {
-        "key": "occupational",
-        "name": "Occupational Bias",
-        "en": "Occupational Bias"
-      },
-      {
-        "key": "socioEconomic",
-        "name": "Socioeconomic Bias",
-        "en": "Socioeconomic Bias"
+        "key": "socioeconomic_bias",
+        "name": "socioeconomic bias",
+        "en": "socioeconomic bias"
       }
     ]
   },
   {
-    "key": "cognitive",
-    "category": "Cognitive",
+    "key": "political",
+    "category": "Political",
     "biases": [
       {
-        "key": "truth",
-        "name": "Truth Bias",
-        "en": "Truth Bias"
-      },
-      {
-        "key": "implicit",
-        "name": "Implicit Bias",
-        "en": "Implicit Bias"
+        "key": "political_bias",
+        "name": "political bias",
+        "en": "political bias"
       }
     ]
   }

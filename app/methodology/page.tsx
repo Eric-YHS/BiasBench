@@ -23,12 +23,11 @@ export default function Methodology() {
         </ol>
         <h2 className="h2">Total score construction</h2>
         <pre className="bg-slate-50 text-slate-800 p-4 rounded-xl overflow-x-auto text-sm leading-6">
-{`Given five dimension scores S_social, S_cultural, S_political, S_economic, S_cognitive in [0, 100]
+{`Given four dimension scores S_social, S_cultural, S_economic, S_political in [0, 100]
 and weights w_i >= 0 with sum(w_i) = 1,
-TotalScore1 = sum(w_i * S_i)
-TotalScore2 = mean(S_i) + deterministic perturbation <= +/- 2.1 (demo only)
+Overall = sum(w_i * S_i) + deterministic perturbation <= +/- 2.0 (demo only)
 
-This demo uses equal weights (w_i = 0.2).`}
+This demo uses equal weights (w_i = 0.25).`}
         </pre>
         <h2 className="h2">Placeholder inference settings</h2>
         <ul className="list-disc pl-6 space-y-1">

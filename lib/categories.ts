@@ -1,10 +1,9 @@
 export const CATEGORIES = [
-  { key: "totalScore1", name: "Total Score 1" },
+  { key: "overall", name: "Overall" },
   { key: "social", name: "Social" },
   { key: "cultural", name: "Cultural" },
-  { key: "political", name: "Political" },
   { key: "economic", name: "Economic" },
-  { key: "cognitive", name: "Cognitive" },
+  { key: "political", name: "Political" },
 ] as const;
 
 export type CategoryKey = typeof CATEGORIES[number]["key"];

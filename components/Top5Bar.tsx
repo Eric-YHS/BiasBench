@@ -9,7 +9,7 @@ import {
   CartesianGrid,
 } from "recharts";
 
-export default function Top5Bar({ data }: { data: { name: string; totalScore1: number }[] }) {
+export default function Top5Bar({ data }: { data: { name: string; overall: number }[] }) {
   return (
     <div className="h-[280px]">
       <ResponsiveContainer width="100%" height="100%">
@@ -18,7 +18,7 @@ export default function Top5Bar({ data }: { data: { name: string; totalScore1: n
           <XAxis dataKey="name" tick={{ fontSize: 12 }} />
           <YAxis domain={[0, 100]} />
           <Tooltip />
-          <Bar dataKey="totalScore1" fill="#0f766e" name="Total Score 1" />
+          <Bar dataKey="overall" fill="#0f766e" name="Overall Score" />
         </BarChart>
       </ResponsiveContainer>
     </div>
