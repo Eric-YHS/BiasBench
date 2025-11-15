@@ -67,7 +67,7 @@ export default function BiasCategoryTable({
   const handleSort = (biasKey: string, key: BiasTableState["sortKey"]) => {
     setTableState(current => {
       const state = current[biasKey] ?? defaultState;
-      const next =
+      const next: BiasTableState =
         state.sortKey === key
           ? { ...state, direction: state.direction === "asc" ? "desc" : "asc" }
           : { ...state, sortKey: key, direction: "desc" };
@@ -78,7 +78,8 @@ export default function BiasCategoryTable({
   const toggleExpanded = (biasKey: string) => {
     setTableState(current => {
       const state = current[biasKey] ?? defaultState;
-      return { ...current, [biasKey]: { ...state, expanded: !state.expanded } };
+      const next: BiasTableState = { ...state, expanded: !state.expanded };
+      return { ...current, [biasKey]: next };
     });
   };
 
