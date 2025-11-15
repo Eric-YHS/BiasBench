@@ -1,0 +1,92 @@
+name: Deploy Next.js (SSR) to Aliyun via rsync+ssh
+
+on:
+  push:
+    branches: [ main ]
+
+concurrency:
+  group: biasbench-deploy
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 让 git archive 基于完整树更稳定
+
+      - name: Setup Node.js (for tooling if needed)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 用 git archive 从当前提交导出源码（不包含 .git / node_modules / .next / out）
+      - name: Create source bundle (git archive)
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git archive --format=tar.gz -o app.tar.gz HEAD
+          ls -lh app.tar.gz
+
+      # 用原生 rsync 上传单个 tar 包到服务器 releases/<SHA>/ 目录
+      - name: Upload bundle via rsync
+        env:
+          SSH_KEY: ${{ secrets.PRIVATE_KEY }}
+        run: |
+          echo "$SSH_KEY" > id_rsa
+          chmod 600 id_rsa
+          mkdir -p ~/.ssh
+          echo "StrictHostKeyChecking no" >> ~/.ssh/config
+          RSYNC_DEST="${{ secrets.USERNAME }}@${{ secrets.HOST }}:${{ secrets.TARGET }}/releases/${{ github.sha }}/"
+          ssh -i id_rsa -p ${{ secrets.PORT }} ${{ secrets.USERNAME }}@${{ secrets.HOST }} "mkdir -p '${{ secrets.TARGET }}/releases/${{ github.sha }}'"
+          rsync -az --progress -e "ssh -i id_rsa -p ${{ secrets.PORT }}" app.tar.gz "$RSYNC_DEST"
+
+      # 在服务器上：解包、安装依赖、构建、切换 current、PM2 启动/重启
+      - name: Build & restart on server (native ssh)
+        env:
+          SSH_KEY: ${{ secrets.PRIVATE_KEY }}
+        run: |
+          echo "$SSH_KEY" > id_rsa
+          chmod 600 id_rsa
+          ssh -p ${{ secrets.PORT }} -o StrictHostKeyChecking=no -i id_rsa \
+            ${{ secrets.USERNAME }}@${{ secrets.HOST }} << 'EOF'
+            set -e
+
+            APP_DIR="${{ secrets.TARGET }}"
+            RELEASE_DIR="$APP_DIR/releases/${{ github.sha }}"
+            CURRENT_DIR="$APP_DIR/current"
+            SHARED_DIR="$APP_DIR/shared"
+
+            # 如果服务器使用 nvm，可加载 Node 20（没有也不报错）
+            if [ -s "$HOME/.nvm/nvm.sh" ]; then
+              . "$HOME/.nvm/nvm.sh"
+              nvm use 20 >/dev/null 2>&1 || true
+            fi
+
+            cd "$RELEASE_DIR"
+
+            # 解压 CI 上传的源码包
+            tar -xzf app.tar.gz
+            rm -f app.tar.gz
+
+            # 绑定共享环境变量（可选）
+            if [ -f "$SHARED_DIR/.env" ]; then
+              ln -sf "$SHARED_DIR/.env" .env
+            fi
+
+            # 安装依赖并构建
+            npm ci
+            npm run build
+
+            # 原子切换 current -> 新版本
+            ln -sfn "$RELEASE_DIR" "$CURRENT_DIR"
+
+            # PM2 启动/重启（要求 package.json: start 使用 -p 3000）
+            cd "$CURRENT_DIR"
+            pm2 describe biasbench >/dev/null 2>&1 \
+              && pm2 restart biasbench \
+              || pm2 start "npm -- start" --name biasbench --time --cwd "$CURRENT_DIR"
+
+            pm2 save
