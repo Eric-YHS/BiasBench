@@ -1,30 +1,74 @@
-name: Deploy Next.js (SSR) to Aliyun via rsync+ssh
+name: CI & Deploy (Next.js SSR → Aliyun via rsync+ssh)
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 concurrency:
-  group: biasbench-deploy
+  group: biasbench-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  # 质量门禁：无论是否配置了部署密钥都要跑，保证 PR 上有真实反馈。
+  build:
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build
+        run: npm run build
+
+  deploy:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      HOST: ${{ secrets.HOST }}
+      USERNAME: ${{ secrets.USERNAME }}
+      PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+      TARGET: ${{ secrets.TARGET }}
+      PORT: ${{ secrets.PORT || 22 }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # 让 git archive 基于完整树更稳定
+          fetch-depth: 0 # 让 git archive 基于完整树更稳定
 
-      - name: Setup Node.js (for tooling if needed)
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+      # 缺少任一部署密钥时跳过（而不是必然失败），便于 fork / 新分支直接复用该工作流。
+      - name: Check deploy secrets
+        id: guard
+        run: |
+          missing=""
+          for k in HOST USERNAME PRIVATE_KEY TARGET; do
+            if [ -z "${!k}" ]; then missing="$missing $k"; fi
+          done
+          if [ -n "$missing" ]; then
+            echo "::warning::缺少 secrets:$missing，跳过部署"
+            echo "enabled=false" >>"$GITHUB_OUTPUT"
+          else
+            echo "enabled=true" >>"$GITHUB_OUTPUT"
+          fi
 
       # 用 git archive 从当前提交导出源码（不包含 .git / node_modules / .next / out）
       - name: Create source bundle (git archive)
+        if: steps.guard.outputs.enabled == 'true'
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git archive --format=tar.gz -o app.tar.gz HEAD
@@ -32,27 +76,24 @@ jobs:
 
       # 用原生 rsync 上传单个 tar 包到服务器 releases/<SHA>/ 目录
       - name: Upload bundle via rsync
-        env:
-          SSH_KEY: ${{ secrets.PRIVATE_KEY }}
+        if: steps.guard.outputs.enabled == 'true'
         run: |
-          echo "$SSH_KEY" > id_rsa
+          echo "$PRIVATE_KEY" > id_rsa
           chmod 600 id_rsa
           mkdir -p ~/.ssh
           echo "StrictHostKeyChecking no" >> ~/.ssh/config
-          RSYNC_DEST="${{ secrets.USERNAME }}@${{ secrets.HOST }}:${{ secrets.TARGET }}/releases/${{ github.sha }}/"
-          ssh -i id_rsa -p ${{ secrets.PORT }} ${{ secrets.USERNAME }}@${{ secrets.HOST }} "mkdir -p '${{ secrets.TARGET }}/releases/${{ github.sha }}'"
-          rsync -az --progress -e "ssh -i id_rsa -p ${{ secrets.PORT }}" app.tar.gz "$RSYNC_DEST"
+          RSYNC_DEST="$USERNAME@$HOST:$TARGET/releases/${{ github.sha }}/"
+          ssh -i id_rsa -p "$PORT" "$USERNAME@$HOST" "mkdir -p '$TARGET/releases/${{ github.sha }}'"
+          rsync -az --progress -e "ssh -i id_rsa -p $PORT" app.tar.gz "$RSYNC_DEST"
 
       # 在服务器上：解包、安装依赖、构建、切换 current、PM2 启动/重启
       - name: Build & restart on server (native ssh)
-        env:
-          SSH_KEY: ${{ secrets.PRIVATE_KEY }}
+        if: steps.guard.outputs.enabled == 'true'
         run: |
-          echo "$SSH_KEY" > id_rsa
+          echo "$PRIVATE_KEY" > id_rsa
           chmod 600 id_rsa
-          ssh -p ${{ secrets.PORT }} -o StrictHostKeyChecking=no -i id_rsa \
-            ${{ secrets.USERNAME }}@${{ secrets.HOST }} << 'EOF'
-            set -e
+          ssh -p "$PORT" -o StrictHostKeyChecking=no -i id_rsa "$USERNAME@$HOST" << 'EOF'
+            set -euo pipefail
 
             APP_DIR="${{ secrets.TARGET }}"
             RELEASE_DIR="$APP_DIR/releases/${{ github.sha }}"
@@ -90,3 +131,5 @@ jobs:
               || pm2 start "npm -- start" --name biasbench --time --cwd "$CURRENT_DIR"
 
             pm2 save
+            pm2 status biasbench
+          EOF
