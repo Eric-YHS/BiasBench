@@ -5,6 +5,9 @@ import LeaderboardTable from "@/components/LeaderboardTable";
 import MajorTypeTable from "@/components/MajorTypeTable";
 import type { BiasCategory, BiasCategoryKey, Model, ModelBiasDetail, ScoreRow } from "@/lib/utils";
 
+/** 首页四个主维度的展示顺序（模块级常量，避免每次渲染产生新引用）。 */
+const MAJOR_ORDER: BiasCategoryKey[] = ["social", "cultural", "economic", "political"];
+
 type Dataset = {
   models: Model[];
   scores: ScoreRow[];
@@ -93,7 +96,6 @@ export default function HomePageClient({ initialData }: HomePageClientProps) {
       }).format(new Date(lastUpdatedTimestamp))
     : null;
 
-  const MAJOR_ORDER: BiasCategoryKey[] = ["social", "cultural", "economic", "political"];
   const orderedCategories = useMemo(() => {
     const lookup = new Map(biasCategories.map(category => [category.key, category]));
     return MAJOR_ORDER.map(key => lookup.get(key)).filter(

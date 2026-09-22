@@ -53,7 +53,7 @@ const faqSections: FAQSection[] = [
         question: "Can I specify richer demographic variables such as income or industry?",
         answer: (
           <p>
-            Yes. Enable the "Custom" option in the demographic panel to define bespoke attributes for
+            Yes. Enable the “Custom” option in the demographic panel to define bespoke attributes for
             income, occupation, health status, overseas experience, and more.
           </p>
         ),
@@ -80,7 +80,7 @@ const faqSections: FAQSection[] = [
       },
       {
         question: "Does the field \"Location\" map to the participants' country or region?",
-        answer: <p>Yes. \"Location\" refers to the country or region assigned to the simulated participant.</p>,
+        answer: <p>Yes. “Location” refers to the country or region assigned to the simulated participant.</p>,
       },
       {
         question: "Do you offer built-in power analysis when selecting sample sizes?",
@@ -108,7 +108,7 @@ const faqSections: FAQSection[] = [
       },
       {
         question: "Can I embed images in the study materials?",
-        answer: <p>Yes. Image upload is supported in instruction fields such as "Guidance" and "Condition description".</p>,
+        answer: <p>Yes. Image upload is supported in instruction fields such as “Guidance” and “Condition description”.</p>,
       },
       {
         question: "Is AITurk suitable for every type of social-science study?",
@@ -129,9 +129,9 @@ const faqSections: FAQSection[] = [
         question: "What counts as a large, medium or small expected effect size?",
         answer: (
           <p>
-            The sliders are subjective. Choose "Medium" for most studies. If you expect a strong
-            relationship (for example job satisfaction vs. life satisfaction) pick "Large"; if you are
-            purely exploring weak associations, pick "Small".
+            The sliders are subjective. Choose “Medium” for most studies. If you expect a strong
+            relationship (for example job satisfaction vs. life satisfaction) pick “Large”; if you are
+            purely exploring weak associations, pick “Small”.
           </p>
         ),
       },
@@ -207,7 +207,7 @@ const faqSections: FAQSection[] = [
         question: "Can I import another user's shared AITurk study into my account?",
         answer: (
           <p>
-            Yes. Use "Import study" on the workspace page and paste the shared link to copy it into your
+            Yes. Use “Import study” on the workspace page and paste the shared link to copy it into your
             project list.
           </p>
         ),
